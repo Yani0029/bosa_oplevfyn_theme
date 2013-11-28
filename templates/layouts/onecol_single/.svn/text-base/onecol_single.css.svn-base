@@ -1,0 +1,10 @@
+.panel-onecol_single { 
+  padding: 1em 1em 0;
+}
+.panel-onecol_single .panel-panel { 
+  width: 100%; 
+  margin-bottom: 1em;
+}
+.panel-onecol_single .panel-separator {
+  margin: 0 0 1em 0;
+}

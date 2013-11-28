@@ -1,0 +1,25 @@
+.panel-threecol_40_25_35 { 
+  padding: 1em 1em 0;
+}
+.panel-threecol_40_25_35 > .panel-panel-wrapper,
+.panel-threecol_40_25_35 >  .panel-panel { 
+  margin-bottom: 1em;
+}
+.panel-threecol_40_25_35 > .panel-panel-wrapper > .panel-panel,
+.panel-threecol_40_25_35 > .panel-panel-wrapper > .panel-panel-wrapper > .panel-panel { 
+  float: left;
+  margin: 0 1em 0 0;
+  width: 34%;
+}
+.panel-threecol_40_25_35 >  .panel-panel-wrapper > .panel-col-last { 
+  margin: 0;
+}
+.panel-threecol_40_25_35 .panel-separator {
+  margin: 0 0 1em 0;
+}
+.panel-threecol_40_25_35 > .panel-panel-wrapper.panel-col-main-content-col-wrapper > .panel-panel-wrapper > .panel-panel.panel-col-first {
+  width: 39%;
+}
+.panel-threecol_40_25_35 > .panel-panel-wrapper.panel-col-main-content-col-wrapper > .panel-panel-wrapper > .panel-panel.panel-col {
+  width: 24%;
+}

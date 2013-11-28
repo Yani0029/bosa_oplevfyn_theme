@@ -1,0 +1,11 @@
+.panel-campaign { 
+  padding: 1em 1em 0;
+}
+.panel-campaign .panel-panel-wrapper,
+.panel-campaign .panel-panel { 
+  width: 100%; 
+  margin-bottom: 1em;
+}
+.panel-campaign .panel-separator {
+  margin: 0 0 1em 0;
+}

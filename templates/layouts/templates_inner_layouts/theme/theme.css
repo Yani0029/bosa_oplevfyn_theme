@@ -1,0 +1,11 @@
+.panel-theme { 
+  padding: 1em 1em 0;
+}
+.panel-theme .panel-panel-wrapper,
+.panel-theme .panel-panel { 
+  width: 100%; 
+  margin-bottom: 1em;
+}
+.panel-theme .panel-separator {
+  margin: 0 0 1em 0;
+}

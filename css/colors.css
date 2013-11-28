@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+/************************************
+      HTML ELEMENTS
+************************************/
+  
+html,
+body {
+  color: #333;
+}
+.pane-node-body p{
+  color: #333333;
+}
+html,
+body#tinymce {
+  background: #fff;
+}
+#page {
+  background: #EFEEEA;
+}
+a {
+  color: #7f0006;
+}
+a:hover {
+  color: #333!important;
+}
+.above-header{
+  background-color: #0E272F;
+  background-image: -moz-linear-gradient(top, #0d303b 0%, #0d191e 100%);
+  background-image: -ms-linear-gradient(top, #0d303b 0%, #0d191e 100%);
+  background-image: -o-linear-gradient(top, #0d303b 0%, #0d191e 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0d303b), color-stop(1, #0d191e));
+  background-image: -webkit-linear-gradient(top, #0d303b 0%, #0d191e 100%);
+  background-image: linear-gradient(top, #0d303b 0%, #0d191e 100%);
+
+}
+#page > footer {
+  background-color: #0E272F;
+  background-image: -moz-linear-gradient(top, #0d303b 0%, #0d191e 100%);
+  background-image: -ms-linear-gradient(top, #0d303b 0%, #0d191e 100%);
+  background-image: -o-linear-gradient(top, #0d303b 0%, #0d191e 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0d303b), color-stop(1, #0d191e));
+  background-image: -webkit-linear-gradient(top, #0d303b 0%, #0d191e 100%);
+  background-image: linear-gradient(top, #0d303b 0%, #0d191e 100%);
+
+}
+  
+  
+/*******************************************************************
+* Color Module: Don't touch                                       *
+*******************************************************************/
+
+  
+  
+  
+  
+  
+  
+  
+  
+  

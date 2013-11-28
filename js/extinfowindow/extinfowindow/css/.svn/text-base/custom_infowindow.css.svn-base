@@ -1,0 +1,118 @@
+#custom_info_window_black{
+  width: 353px;
+  margin-top: 20px;
+}
+#custom_info_window_black_contents {
+  font-size: 12px;
+  color: #333;
+  background-color: #fff;
+}
+#custom_info_window_black_tl{
+  width: 14px;
+  height: 14px;
+  background: #fff;
+}
+#custom_info_window_black_t{
+  background: #fff;
+}
+#custom_info_window_black_tr{
+  width: 14px;
+  height: 14px;
+  background: url('../../../../images/sprite-tooltip.png') -1903px 0 no-repeat;
+}
+#custom_info_window_black_l{
+  width: 14px;
+  background: url('../../../../images/sprite-tooltip.png') -1553px -10px no-repeat;
+}
+#custom_info_window_black_r{
+  width: 14px;
+  background: url('../../../../images/sprite-tooltip.png') -1903px -10px no-repeat;
+}
+#custom_info_window_black_bl{
+  width: 14px;
+  height: 34px;
+  background: url("../../../../images/sprite-tooltip.png") no-repeat -1553px -750px;
+}
+#custom_info_window_black_b{
+  background: url("../../../../images/sprite-tooltip.png") no-repeat -1557px -750px;
+}
+#custom_info_window_black_br{
+  width: 14px;
+  height: 34px;
+  background: url("../../../../images/sprite-tooltip.png") no-repeat -1903px -750px;
+}
+#custom_info_window_black_close {
+  width: 18px;
+  height: 18px;
+  background: url("../../../../images/icon-sprite.png") no-repeat scroll 6px -221px;
+  cursor: pointer;
+  right: -20px!important;
+  top: 4px!important;
+  left: auto!important;
+}
+#custom_info_window_black_beak {
+  background: url("../../../../images/sprite-tooltip.png") no-repeat scroll -2010px -770px transparent;
+  height: 32px !important;
+  width: 22px !important;
+  margin-left: 14px;
+  margin-top: -11px;
+}
+#custom_info_window_black_contents .section1 {
+  margin: 0;
+  padding: 0;
+}
+.glocation-title {
+  margin: 0 0 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.glocation-address {
+  margin: 0 0 14px;
+}
+.glocation-address .street-address {
+  display: block;
+}
+.glocation-rating {
+  margin: 0 0 7px;
+}
+/* #custom_info_window_black_contents .section2 {
+  margin: 0;
+  padding: 0;
+}
+#custom_info_window_black_contents p {
+}
+#custom_info_window_black_contents .title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFF;
+  background-color: #900;
+} */
+
+.ProductImageWrapper{
+  width: 162px;
+  height: 162px;
+  float: left;
+}
+.ProductImageWrapper img{
+  max-width: 150px;
+  max-height: 120px;
+}
+#custom_info_window_black h3{
+  padding-bottom: 14px;
+}
+#custom_info_window_black ul {
+  float: left;
+  padding: 0;
+}
+#custom_info_window_black ul li{
+  background: url("../../../../images/sprite-bullets.png") no-repeat -258px -21px;
+  padding-left: 15px;
+}
+
+.panel-pane[class*="section-box-279"] #custom_info_window_black{
+  width: 215px;
+}
+.panel-pane[class*="section-box-279"] .ProductImageWrapper ,
+.panel-pane[class*="section-box-279"] #custom_info_window_black p {
+  display: none;
+}

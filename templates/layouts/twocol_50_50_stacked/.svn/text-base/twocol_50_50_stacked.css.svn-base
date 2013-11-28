@@ -1,0 +1,16 @@
+.panel-twocol_50_50_stacked > .panel-panel-wrapper,
+.panel-twocol_50_50_stacked >  .panel-panel { 
+  width: 100%; 
+  margin-bottom: 1em;
+}
+.panel-twocol_50_50_stacked >  .panel-panel-wrapper > .panel-panel { 
+  float: left;
+  margin: 0 1em 0 0;
+  width: 48%;
+}
+.panel-twocol_50_50_stacked >  .panel-panel-wrapper > .panel-col-last { 
+  margin: 0;
+}
+.panel-twocol_50_50_stacked >  .panel-separator {
+  margin: 0 0 1em 0;
+}

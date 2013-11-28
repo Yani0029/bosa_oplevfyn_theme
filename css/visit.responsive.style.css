@@ -1,0 +1,220 @@
+/**
+ * Use this file to conditionally override styles for devices.
+ * If you adjust the media queries in the theme settings you should
+ * adjust them here so they match.
+ */
+
+/* Smartphone portrait 
+@media only screen and (max-width:320px) {
+  
+}
+*/
+
+/* Smartphone landscape */
+@media only screen /*and (min-width:321px)*/ and (max-width:480px) {
+
+  
+  .view-offer-product-reference .price { width: 95px !important; }
+  .front.category-view { width: 97.5%;  margin: 1%; height: 323px; }
+  .front .pane-kategorivisning { width: 100%; }
+  #block-lang-dropdown-language-content { float: left; }
+  .geografi-list .views-row .views-field-name a { font-size: 16px; }
+  #block-commerce-multicurrency-currency-menu { padding-right: 0; }
+  .view-offer-product-reference .product-title { width: 200px; }
+  .view-offer-product-reference .date { width: 155px !important; }
+  .panel-col-bottom-row-left .product-list .product { width: 280px; margin: 1% 2%; }
+  .kategoribillede img,
+  .kategoribillede { height: 260px; }
+
+#sidebar-right { clear: both; width: 100%; }
+.shop.section-box-865 { width: 100%; }
+
+  .view-id-offer_additionlal_info.view-display-id-panel_pane_1,
+  .panel-panel.panel-col-main-content-col-2.panel-col.clearfix.layout-cols-1 { width: 100%; margin: 0 1.5%; }
+
+  .turistonline,
+  .map-image { display: none; }
+  .as3grid .views-row {
+    float: left;
+    width: 280px;
+    height: 235px;
+    margin: 10px;
+  }
+  body { font-size: 11px}
+.pane-offer-type-gallery,
+.pane-bosa-bosa,
+.eu-project,
+.pane-offer-additionlal-info,
+.front .offer-exposed-filter .alle {
+  	display: none
+  	}
+  
+.layout-cols-3, .panel-gdpanel .ProductWrapper {
+	width: 100%;
+	}
+	
+.layout-cols-1 {
+	width: 100%;}
+
+.layout-cols-3 .layout-cols-1, .layout-cols-3 .panel-pane[class*="section-box-279"], 
+.pane-tellus-related-products .TellusProduct, 
+#employee_single .layout-cols-3 .field-name-field-recommended > .field-items > .field-item {
+	width: 99%;
+	}
+
+.layout-cols-3 .layout-cols-2, 
+.layout-cols-3 .panel-pane[class*="section-box-572"], 
+.layout-cols-3 .panel-twocol_50_50_stacked > .panel-panel-wrapper > .panel-panel, 
+#employee_single .layout-cols-3 .field-name-field-recommended > .field-items > .field-item:first-child {
+	width: 100%;
+	}
+
+#page .panel-pane.pane-views-panes.pane-offer-additionlal-info-panel-pane-2, 
+#page #single-offer .panel-pane[class*="ane-gmap-location"] {
+	width: 97%;
+	}
+
+#page .offer-mail-view { 
+	width: auto;
+	}
+#single-offer .views-field-title .Do.Water {
+	font-size: 24px;
+	padding-left: 10px;
+	line-height: 24px;
+	padding-top: 10px;
+}
+
+.views-field.views-field-title {
+    clear: left;
+}
+
+.view-offer-product-reference .date, 
+.view-offer-product-reference .ledige_pladser, 
+.view-offer-product-reference .price { 
+	padding: 0 3px;
+	overflow: hidden;
+	}
+
+.view-offer-product-reference .date { 
+	width: 130px; 
+	}
+
+.view-offer-product-reference .ledige_pladser { 
+	width: 40px; 
+	}
+
+.view-offer-product-reference .price { 
+	width: 64px; 
+	}
+	
+.container .panel-tema-layout > .panel-panel-wrapper > .inside > .panel-panel-wrapper > .inside > .panel-panel.panel-col-main-content-col-1 .panel-pane, .container .panel-threecol_50_25_25 > .panel-panel-wrapper > .inside > .panel-panel-wrapper > .inside > .panel-panel.panel-col-main-content-col-1 .panel-pane {
+margin-left: 0;
+margin-right: 0;
+width: 100%;
+	}
+iframe#iframeprovider0 { display: none}
+.view-id-offer_product_reference .view-header { 
+	display: none
+	}
+.view-offer-product-reference .views-field-title, .views-field-commerce-stock, .views-field-commerce-price {
+font-size: 11px;
+float: left;
+}
+
+#page .view-offer-product-reference input.text-full {
+width: 259px;
+margin-left: 0px;
+}
+
+.view-offer-product-reference .views-field-title { padding-left: 0; margin-left: 0;}
+.view-offer-product-reference .form-text {
+	height: 17px;
+	width: 20px;
+	border-radius: 0px;
+	margin-top: 1px;
+	}
+	
+.form-type-textfield.form-item-line-item-fields-field-line-item-comment-und-0-value, 
+.form-item.form-type-textfield.form-item-quantity2, 
+.form-item.form-type-textfield.form-item-quantity  { 
+	padding-bottom: 0;
+	}
+	
+.view-offer-product-reference .button-wrapper {
+	padding: 0;
+	width: auto;
+	height: 11px;
+	width: 54px;
+	background-color: #FFF;
+	margin-left: 3px
+	}
+.view-offer-product-reference {
+	font-size: 11px;
+	width: 100%;
+	}
+#main-content {
+padding: 0 0 200px 0 !important;
+}
+.view-id-offer_product_reference form {
+	}
+.container .panel-tema-layout .panel-panel.panel-col-main-content-col-2, 
+.container .panel-threecol_50_25_25 .panel-panel.panel-col-main-content-col-2, 
+.ProductInfoSidebar {
+	padding-top: 10px;
+	}
+	
+#single-offer .views-field-field-offer-you-get { margin: 0; padding: 3px}
+
+#page .panel-pane.pane-views.pane-offer-product-reference {
+margin-left: 3px;
+}
+
+#page > footer .inner {
+padding: 30px 10px;
+}
+.offer-exposed-filter-text { height: auto}
+}
+/* Tablet portrait */
+@media only screen and (min-width:481px) and (max-width:768px) {
+
+  .pane-offer-type-gallery { display: none}
+  .as3grid .views-row { width: 110px; margin: 5px;}
+  .front.category-view { width: 97.5%;  margin: 1%; }
+
+  .container .panel-twocol_25_75_stacked { overflow: hidden; }
+  .views-field.views-field-view-node { right: 30px; }
+  .panel-col-bottom-row-left .product-list .product { width: 39%; }
+
+  .panel-panel.panel-col-main-content-col-3.panel-col-last.clearfix.fright.layout-cols-1 { width: 100%; }
+  .view-id-offer_additionlal_info.view-display-id-panel_pane_1,
+  .panel-panel.panel-col-main-content-col-2.panel-col.clearfix.layout-cols-1 { width: 100%; margin: 0 1.5%; }
+}
+
+/* Tablet landscape */
+@media only screen and (min-width:769px) and (max-width:1023px) {
+
+  .front.category-view { width: 46.5%; height: 323px; }
+  .as3grid .views-row { width: 180px; margin: 5px;}
+  .container .panel-twocol_25_75_stacked { overflow: hidden; }
+  
+  .view-id-offer_additionlal_info.view-display-id-panel_pane_1,
+  .panel-panel.panel-col-main-content-col-2.panel-col.clearfix.layout-cols-1 { width: 100%; margin: 0 1.5%; }
+}
+/*
+@media only screen and (min-width:1024px) and (max-width:1179px) {
+  .as3grid .views-row {  margin: 10px; height: 260px;}
+  .pane-offer-type-gallery { display: block}
+
+}
+*/
+/* Standard layout */
+@media only screen and (min-width:1180px) {
+
+  .as3grid .views-row { width: 284px; height: 254px;}
+
+  #page #single-offer .view-offer-additionlal-info .views-row {
+  clear: none; 
+  }
+
+}
+

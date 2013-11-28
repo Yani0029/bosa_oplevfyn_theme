@@ -1,0 +1,115 @@
+@import url("http://fast.fonts.com/t/1.css?apiType=css&projectid=d2663333-d589-4bb9-b8d6-844e06c8e049");
+ 
+body,
+.intro{
+  font: normal 8pt/9pt soho, Serif;
+  color: #999999;
+}
+.info-sub-label{
+  color: #444444;
+}
+h1,
+.intro-title{
+  font: normal 24pt/28pt sohobold, Serif;
+  color: #000000;
+}
+h2{
+  font: normal 20pt/24pt sohobold, Serif;
+}
+h3{
+  font: normal 18pt/22pt sohobold, Serif;
+}
+h4{
+  font: normal 16pt/18pt sohobold, Serif;
+}
+h5,
+.info-label{
+  font: normal 12pt/14pt sohobold, Serif;
+  color: #555555;
+}
+h6{
+  font: normal 12pt/16pt sohobold, Serif;
+}
+.title{
+  display: block;
+  text-align: left;
+  padding: 10px 30px;
+  color: #B4000B;
+  font: normal 16pt/18pt sohobold, Serif;
+  margin: 0 -30px;
+  border-bottom: #EFEEEA 1px double;
+}
+.info-wrapper{
+  width: 77%;
+  display: inline-block;
+  padding: 0 0 0 3%;
+}
+.image{
+  width: 20%;
+  display: inline-block;
+}
+.info-field-wrapper{
+}
+.info-label{
+  display: block;
+  padding: 20px 0 5px;
+}
+.info-field{
+  display: block;
+}
+body{
+  padding: 15% 20%;
+  margin: 0 -8% 0;
+  background: url(../images/printpdf/logo.png) top left no-repeat;
+}
+h1.intro-title{
+  margin-bottom: 10%;
+}
+.intro,
+.outro,
+.info-wrapper{
+  width: 100%;
+  text-align: justify;
+}
+.intro.widthfixed,
+.info-wrapper.widthfixed{
+  display: inline-block;
+  width: 70%;
+}
+.images-wrapper,
+.image{
+  display: inline-block;
+  width: 25%;
+  margin-right: 5%;
+  padding-top: 10px;
+}
+.images-wrapper img,
+.image img{
+  width: 100%;
+}
+img{
+  max-width: 100%;
+}
+a{
+  color: #B4000B;
+  text-decoration: none;
+}
+.info-sub-label{
+  width: 25%;
+  display: inline-block;
+  padding: 5px;
+  background: #EFEEEA;
+  color: #B4000B;
+  font: normal 8pt/9pt sohobold, Serif;
+  margin: 2px 4% 2px 0;
+}
+.info-sub-field{
+  width: 55%;
+  display: inline-block;
+  margin:  0 0 2px 0;
+}
+article{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom:  #EFEEEA 3px double;
+}

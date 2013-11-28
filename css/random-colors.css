@@ -1,0 +1,110 @@
+/*Block Header Colors*/
+
+.orange h2,
+.orange .title,
+.orange .title a {
+  color: #E58D2C;
+}
+.orange .block_list,
+.orange .block_number{
+  background: #E58D2C;
+}
+.dark-orange h2,
+.dark-orange .title,
+.dark-orange .title a {
+  color: #D64B25;
+}
+.dark-orange .block_list,
+.dark-orange .block_number{
+  background: #D64B25;
+}
+.red h2,
+.red .title,
+.red .title a {
+  color: #9D1920;
+}
+.red .block_list,
+.red .block_number{
+  background: #9D1920;
+}
+.dark-brown h2,
+.dark-brown .title,
+.dark-brown .title a {
+  color: #3D0B1D;
+}
+.dark-brown .block_list,
+.dark-brown .block_number{
+  background: #3D0B1D;
+}
+.brown h2,
+.brown .title,
+.brown .title a {
+  color: #7D7463;
+}
+.brown .block_list,
+.brown .block_number{
+  background: #7D7463;
+}
+.purple h2,
+.purple .title,
+.purple .title a {
+  color: #6C2368;
+}
+.purple .block_list,
+.purple .block_number{
+  background: #6C2368;
+}
+.pink h2,
+.pink .title,
+.pink .title a {
+  color: #CB126A;
+}
+.pink .block_list,
+.pink .block_number{
+  background: #CB126A;
+}
+.green h2,
+.green .title,
+.green .title a {
+  color: #72B039;
+}
+.green .block_list,
+.green .block_number{
+  background: #72B039;
+}
+.dark-green h2,
+.dark-green .title,
+.dark-green .title a {
+  color: #406049;
+}
+.dark-green .block_list,
+.dark-green .block_number{
+  background: #406049;
+}
+.blue h2,
+.blue .title,
+.blue .title a {
+  color: #00A5D5;
+}
+.blue .block_list,
+.blue .block_number{
+  background: #00A5D5;
+}
+.gray-blue h2,
+.gray-blue .title,
+.gray-blue .title a {
+  color: #355767;
+}
+.gray-blue .block_list,
+.gray-blue .block_number{
+  background: #355767;
+}
+.black h2,
+.black .title,
+.black .title a {
+  color: #141414;
+}
+.black .block_list,
+.black .block_number{
+  background: #141414;
+}

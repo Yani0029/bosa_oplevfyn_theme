@@ -1,0 +1,1410 @@
+.block-inner {} /* set block background styles on .block-inner */
+.block-title {}
+.block-content {}
+
+
+
+/* Target sidebar blocks */
+.sidebar .block {}
+.sidebar .block-inner {}
+.sidebar .block-title {}
+.sidebar .block-content {}
+
+/* Gpanel blocks */
+.gpanel .block {}
+.gpanel .block-inner {}
+.gpanel .block-title {}
+.gpanel .block-content {}
+
+/* Block wrapper for Mini Panels */
+.block-panels_mini {}
+.block-panels_mini .block-inner {}
+.block-panels_mini .block-content {}
+
+
+
+.lb-h .block-inner,
+.lb-h .block-content {
+  background: none;
+}
+
+.lb-h #user-login-form label {
+  line-height: 1.2
+}
+
+.lb-h .form-required,
+.lb-h .item-list {
+  display: none;
+}
+
+
+
+/**************************************
+             BLOCKS STYLES
+***************************************/
+
+.section-title {
+  background: #EFEEEA!important;
+  border: none !important;
+}
+
+.panel-col-nav .section-title {
+  background: none!important;
+}
+
+.no-background {
+  background: transparent!important;
+}
+
+.block_teaser,
+.article .block_teaser .field-name-body{
+  line-height: 18px;
+  color: #7d7363;
+}
+
+fieldset-title
+.section-boxes,
+.panel-pane[class*="section-box"],
+.article .panel-panel[class*="panel-row-main_content"] .panel-pane,
+.article .panel-tema-layout >   .panel-panel-wrapper > .panel-col-main-content-col-3 .panel-pane,
+.panel-pane.pane-node-field-right-blocks .field-name-field-right-blocks > .field-items > .field-item,
+.panel-threecol_50_25_25 > .panel-panel-wrapper > .inside > .panel-col-main-content-col-3 .panel-pane,
+.panel-twocol_50_50_stacked > .panel-panel-wrapper > .panel-panel,
+.panel-twocol_25_75_stacked .TellusProduct,
+.pane-tellus-cusom-blocks .pane-content > div,
+.pane-tellus-near-by,
+.pane-tellus-related-products,
+.pane-tellus-related-products .TellusProduct,
+.panel-twocol_25_75_stacked .search-results .visitdk-search-search-result,
+#employee_single .field-name-field-recommended > .field-items > .field-item{
+  text-align: left;
+  background: #fff;
+}
+.fieldset-title,
+.fieldset-title:focus{
+  outline: none!important;
+}
+
+/*.section-boxes:hover,
+.panel-panel.panel-col-main-content .panel-pane[class*="section-box"]:hover {
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
+}*/
+.panel-pane[class*="section-box"] + .panel-separator,
+.panel-pane[class*="element-"] + .panel-separator,
+.pane-visitdk-simple-links-pane + .panel-separator {
+  display: none;
+}
+
+#content .panel-col-main-content-col-3 .panel-pane.pane-node-field-right-blocks{
+  background: transparent;
+}
+
+/*Section block --- First*/
+.panel-pane.section-box-250-470-first {
+  background: url(../images/sprite-x.png) 0 -958px no-repeat transparent;
+  line-height: 21px;
+}
+.section-no-hover:hover,
+.panel-panel.panel-col-main-content .panel-pane.section-box-250-470-first:hover {
+  box-shadow: none!important;
+}
+.section-box-250-470-first .block_title .title,
+.section-box-250-470-first h2.pane-title .title{
+  line-height: 28px;
+  display: block;
+}
+.section-box-250-470-first .block_teaser a {
+  background: url("../images/sprite-bullets.png") no-repeat scroll -292px 6px transparent;
+  display: block;
+}
+.section-box-250-470-first .block_teaser{
+  line-height: 21px;
+  color: #333333;
+}
+/*Section block --- 572 X 470*/
+
+.section-box-572,
+.section-box-572-160,
+.section-box-572-470,
+.panel-twocol_50_50_stacked > .panel-panel-wrapper > .panel-panel,
+#employee_single .field-name-field-recommended > .field-items > .field-item:first-child{
+}
+
+.section-box-572-160 {
+}
+
+.section-box-572-470,
+#employee_single .field-name-field-recommended > .field-items > .field-item:first-child{
+}
+
+.section-box-572-470 img,
+#employee_single .field-name-field-recommended > .field-items > .field-item:first-child img{
+}
+.pane-my-guide-list .search-results,
+.pane-my-guide-list .TellusProductList{
+  background: #EFEEEA!important;
+}
+.pane-my-guide-list .search-results li,
+.pane-my-guide-list .TellusProductList .TellusProduct{
+  background: #fff;
+}
+.section-box-572 h2,
+.section-box-572-470 h2,
+#employee_single .field-name-field-recommended > .field-items > .field-item:first-child h2,
+.pane-my-guide-list.blocks-3-custom .custom-blocks .visitdk-search-search-result:first-child h3{
+  color: #72B039;
+  line-height: 29px;
+}
+.section-box-572 h2, 
+.section-box-572-470 h2 {
+  line-height: 30px;
+}
+#danes-chef .section-box-572-470 {
+}
+
+.section-box-279.section-title,
+.section-box-572.section-title,
+.section-box-865.section-title {
+  background: none;
+}
+.section-box-279.section-title:hover,
+.section-box-572.section-title:hover,
+.section-box-865.section-title:hover {
+  box-shadow: none!important;
+}
+.section-title .align-span {
+  display: none!important;
+}
+.section-box-572-160 p{
+}
+.section-box-572-160 .block_image{
+}
+.section-box-572-160 .block_teaser{
+}
+.section-box-572-160 .block_teaser p{
+}
+    
+    
+    
+    
+    
+/*Section block --- 279 X 226*/
+
+.panel-pane[class*="section-box-279"],
+.panel-twocol_25_75_stacked .TellusProduct,
+.pane-tellus-cusom-blocks .pane-content > div,
+.pane-tellus-near-by,
+.pane-tellus-related-products .TellusProduct,
+#employee_single .field-name-field-recommended > .field-items > .field-item:first-child ~ .field-item,
+.article .panel-tema-layout > .panel-panel-wrapper > .panel-col-main-content-col-3 .panel-pane.pane-node-field-right-blocks .field-name-field-right-blocks > .field-items > .field-item{
+}
+.section-box-279-160 {
+}
+
+.section-box-279-228,
+.pane-tellus-cusom-blocks .pane-content > div,
+#employee_single .field-name-field-recommended > .field-items > .field-item:first-child ~ .field-item{
+}
+#danes-chef .section-box-279-228{
+}
+#content li a.active{
+  color: #7F0006;
+}
+.section-box-279-228 .block_teaser,
+.pane-tellus-cusom-blocks .pane-content > div .block_teaser,
+#employee_single .field-name-field-recommended > .field-items > .field-item:first-child ~ .field-item .block_teaser{
+  display: none;
+}
+
+.section-box-279-300 {
+}
+#employees_list .section-box-279-300{
+}
+.section-box-279-343 {
+}
+
+.section-box-279-343 .panel-content{
+}
+
+.section-box-279-470 {
+}
+
+.panel-pane[class*="section-box-279"] h2,
+.section-box-572-160 h1,
+.section-box-572-160 h2,
+.form-newsletter h1,
+.view-filter-galleries .section-box-279 .views-field-title,
+.pane-tellus-cusom-blocks .pane-content > div h2,
+#employee_single .field-name-field-recommended > .field-items > .field-item:first-child ~ .field-item h2,
+#content .panel-col-main-content-col-3 .panel-pane.pane-node-field-right-blocks .field-name-field-right-blocks > .field-items > .field-item h2{
+  color: #333333;
+  font-weight: normal;
+  display: block;
+  line-height: 23px;
+
+}
+#encyclopedia-listing-pane h2.pane-title{
+  border-bottom: 0;
+  color: #333333;
+  font-weight: normal;
+  display: block;
+  line-height: 23px;
+}
+.view-id-meet_danes_list .panel-pane[class*="section-box-279"] h2{
+  height: 42px;
+  overflow: hidden;
+}
+#employee_single .field-name-field-job-title {
+  color: #7d7363;
+}
+.section-box-572-160 h1,
+.section-box-572-160 h2 {
+
+}
+.panel-pane[class*="section-box-279"] h2 .align-span,
+#content .panel-col-main-content-col-3 .panel-pane.pane-node-field-right-blocks .field-name-field-right-blocks > .field-items > .field-item .align-span,
+.section-box-572-160 h1 .align-span,
+.section-box-572-160 h2 .align-span,
+.form-newsletter h1 .align-span,
+.view-filter-galleries .section-box-279 .views-field-title .align-span,
+.pane-tellus-cusom-blocks .pane-content > div h2 .align-span,
+.pane-my-guide-list.blocks-3-custom .custom-blocks .visitdk-search-search-result:first-child + li .align-span,
+.pane-my-guide-list.blocks-3-custom .custom-blocks .visitdk-search-search-result:first-child + li + li .align-span,
+.pane-my-guide-list.blocks-3-custom .custom-blocks .visitdk-search-search-result:first-child + li .title,
+.pane-my-guide-list.blocks-3-custom .custom-blocks .visitdk-search-search-result:first-child + li + li .title,
+.pane-my-guide-list.blocks-3-custom .custom-blocks .visitdk-search-search-result:first-child .title,
+#employee_single .field-name-field-recommended > .field-items > .field-item:first-child ~ .field-item h2 .align-span{
+  display: inline-block;
+}
+
+.feeds.panel-pane[class*="section-box-279"] h2 .align-span{
+  background: url("../images/sprite.png") no-repeat scroll -1182px -961px transparent;
+}
+.panel-pane[class*="section-box-279"] h2 .title,
+#content .panel-col-main-content-col-3 .panel-pane.pane-node-field-right-blocks .field-name-field-right-blocks > .field-items > .field-item .title,
+.pane-tellus-cusom-blocks .pane-content > div h2 .title,
+.section-box-572-160 h1 .title,
+.section-box-572-160 h2 .title,
+.form-newsletter h1 .title,
+.view-filter-galleries .section-box-279 .views-field-title a,
+#employee_single .field-name-field-recommended > .field-items > .field-item:first-child ~ .field-item h2 .title{
+  display: inline-block;
+  vertical-align: middle;
+}
+.feeds.panel-pane[class*="section-box-279"] h2 .title{
+}
+.section-box-279.section-title h2 .title,
+.section-box-279-228.section-title h2 .title,
+.section-box-279-343.section-title h2 .title {
+  display: block;
+  color: #FFFFFF;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.panel-pane[class*="section-box-279"] .pane-content > p {
+}
+.section-box-279-300 h2 {
+  display: block
+}
+.section-box-279-300 h2 .title {
+  line-height: 20px;
+}
+.section-box-279-228 img,
+.section-box-279-300 img,
+.pane-tellus-cusom-blocks .pane-content > div img,
+#employee_single .field-name-field-recommended > .field-items > .field-item:first-child ~ .field-item img{
+}
+.panel-pane[class*="section-box-279"] .block_teaser,
+.panel-pane[class*="section-box-279"] .block-teaser,
+.pane-tellus-cusom-blocks .pane-content > div .block_teaser,
+#content .panel-col-main-content-col-3 .panel-pane.pane-node-field-right-blocks .field-name-field-right-blocks > .field-items > .field-item .block_teaser{
+  line-height: 19px;
+  color: #474847;
+}
+.no-space-bottom {
+}
+.no-space-left{
+}
+#content .panel-col-top .no-space-left{
+}
+.panel-pane[class*="section-box-279"].no-space-bottom .block_teaser{
+}
+.white-space-right {
+}
+/*Section block --- 425 X 328*/
+
+.section-box-425,
+.section-box-425-280,
+.section-box-425-328 {
+}
+.section-box-425-328 {
+}
+
+.section-box-425-280 {
+}
+
+.section-box-425 h2,
+.section-box-425-328 h2,
+.section-box-425-280 h2,
+.section-box-206 h2,
+.section-box-206-280 h2 {
+  color: #72b039;
+  font-weight: normal;
+  display: block;
+}
+.section-box-425-280 h2,
+.section-box-206 h2,
+.section-box-206-280 h2 {
+}
+.section-box-425-328 img {
+}
+.section-box-425 .block_teaser,
+.section-box-425-328 .block_teaser {
+  display: none;
+}
+.section-box-425.no-space-bottom,
+.section-box-425-328.no-space-bottom {
+}
+.section-box-425-280,
+.section-box-206,
+.section-box-206-280 {
+  line-height: 24px;
+}
+.section-box-425-280 .block_teaser,
+.section-box-206-280 .block_teaser {
+  line-height: 24px;
+}
+/*Section block --- 865 X 470*/
+
+.section-box-865,
+.section-box-865-470,
+.pane-tellus-related-products{
+}
+.section-box-865-470 {
+}
+.panel-pane.section-box-865.no-space-bottom,
+.panel-pane.section-box-865-470.no-space-bottom {
+}
+/*Section block --- 1158 X 130*/
+.section-box-1158,
+.section-box-1158-130 {
+}
+.section-box-1158-130 {
+}
+/*Section Block ---- 100% white background*/
+.section-box-full-width,
+#content .panel-pane.section-box-full-width {
+  display: block;
+  text-align: center!important;
+}
+.section-box-full-width .align-span {
+  display: inline-block;
+}
+/*Section Block ---- 206 X 280 */
+
+
+.section-box-206,
+.section-box-206-280 {
+}
+.section-box-206-280 {
+}
+
+/*4 col blocks*/
+
+.panel-col-col-4 {
+}
+/*block list*/
+.block_list{
+  background: #72B039;
+  color: #FFFFFF;
+}
+.block_number,
+.block_number a,
+.block_number p{
+  color: #fff;
+  line-height: 33px;
+}
+.block_number a:hover{
+  color: #fff!important;
+}
+.block_number{
+}
+.block_number p{
+  display: block;
+  max-width: 200px;
+}
+/*Box inline auto width*/
+
+
+/*Links inlie block*/
+.links-inline .pane-content a,
+.pane-content > .links-inline a{
+  display: inline-block;
+  line-height: 20px;
+  background: url("../images/sprite-bullets.png") no-repeat -287px 6px ;
+}
+.links-list-red-inline{
+}
+/*Iframe Booking*/
+.pane-visitdk-panels-iframe-pane {
+}
+.pane-visitdk-panels-iframe-pane .pane-content {
+}
+
+/*Download box*/
+.section-box-279-343 .left {
+}
+
+.section-box-279-343 .left + .right {
+}
+a.bullet {
+    background: url("../images/sprite-bullets.png") no-repeat scroll -255px -19px transparent;
+    line-height: 1.4em;
+}
+/* Flickr */
+.flickr .pane-content {
+  text-align: center;
+}
+.flickr img {
+}
+
+/*User contact block*/
+
+.user-contact-info .usr {
+}
+.user-contact-info .usr .lft 									{
+}
+.user-contact-info .usr .rgt {
+}
+.user-contact-info .usr .rgt .nam 								{
+  color:#000;
+  line-height:120%;
+}
+.user-contact-info .usr .rgt .tit 								{
+  color:#333;
+  line-height:120%;
+}
+.user-contact-info .usr .clr 									{
+}
+.user-contact-info .info 										{
+}
+.user-contact-info .info .lft 									{
+}
+.user-contact-info .info .lft p 								{
+  color:#6c6c6c;
+  line-height:120%;
+}
+.user-contact-info .info .rgt {
+}
+.user-contact-info .info .rgt p 								{
+  color:#333;
+  line-height:120%;
+}
+.user-contact-info .info .rgt a 								{
+  color:#7f0006;
+  line-height:120%;
+}
+.user-contact-info .info .rgt a:hover 							{
+  color:#CB1B24;
+}
+
+#slider2 > li{
+}
+#slider2-navi .image{
+}
+
+/*Facts*/
+
+.mwr-t9 .img 											{}
+.mwr-t9 .bdy 										{}
+.mwr-t9 .bdy p 									{
+  color:#6c6c6c;
+  line-height:140%;
+}
+
+/*Related*/
+.mwr-t10 .bdy 										{
+}
+.mwr-t10 .bdy ul 									{
+  list-style-type:none;
+}
+.mwr-t10 .bdy ul li 								{}
+.mwr-t10 .bdy ul li a 								{
+  line-height:140%;
+  display:inline-block;
+  background:url(../images/gfx/dash-t1.png) no-repeat 0px 10px;
+}
+.mwr-t10 .pd .bdy ul li a:hover 						{
+  color:#CB1B24;
+}
+
+/*Tags*/
+.pane-node-terms #mini-panel-related_tags .pane-content{
+}
+#mini-panel-related_tags div *{
+  display: inline!important;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  float: none!important;
+}
+#mini-panel-related_tags>div>div{
+  display: inline-block!important;
+}
+#mini-panel-related_tags li {
+  line-height: 33px;
+  vertical-align: top;
+}
+.ie7 #mini-panel-related_tags li {
+  line-height: 25px;
+}
+
+#mini-panel-related_tags div *:after,
+#mini-panel-related_tags div *.clearfix{
+  display: inline!important;
+  height: auto!important;
+  width: auto!important;
+  zoom: 0!important;
+}
+.pane-node-terms,
+.pane-related-tags,
+.ProductBodyContent .TellusCategoryList,
+.ProductBodyContent .TellusDbOwner {
+  border-top:1px solid #D2CBB5;
+  border-bottom:1px solid #D2CBB5;
+}
+.pane-node-terms .pane-title,
+.pane-related-tags .pane-title,
+.ProductBodyContent .TellusCategoryList h3,
+.ProductBodyContent .TellusDbOwner h3 {
+  color:#7D7463;
+  line-height: 26px;
+}
+.TellusDbOwnerEmail{
+  display: inline-block;
+  line-height: 26px;
+}
+.pane-tellus-near-by a{
+  display: block;
+}
+.pane-node-terms .pane-content,
+.pane-related-tags .pane-content,
+.ProductBodyContent .TellusCategoryListInfo {
+}
+.pane-node-terms .pane-content ul,
+.pane-related-tags .pane-content ul,
+.ProductBodyContent .TellusCategoryListInfo {
+  list-style-type:none;
+  color:#7F0006;
+}
+.pane-node-terms .pane-content ul li,
+.pane-related-tags .pane-content ul li,
+.ProductBodyContent .TellusCategoryListInfo li {
+  display:inline; 
+}
+.pane-node-terms .pane-content ul li a,
+.pane-related-tags .pane-content ul li a,
+.ProductBodyContent .TellusCategoryListInfo li a {
+  color:#7F0006;
+}
+.pane-node-terms .pane-content ul li a:hover,
+.pane-related-tags .pane-content ul li a:hover,
+.ProductBodyContent .TellusCategoryListInfo li a:hover {
+  color:#CB1B24;
+}
+.pane-node-field-date 								{
+  line-height:150%;
+  color:#7d7463;
+}
+.pane-node-terms .panel-separator,
+#mini-panel-related_tags div.panel-separator{
+  display: none!important;
+}
+.ProductBodyContent .TellusCategoryList{
+  border-bottom: 0 none;
+}
+.pane-node-body h2.pane-title 									{
+  line-height:150%;
+  color:#333;
+}
+
+.pane-node-body p,
+.ProductBodyContent .ProductTextList p{
+  line-height:150%;
+  color:#333;
+  vertical-align: baseline;
+}
+.pane-node-body p *,
+.ProductBodyContent .ProductTextList p *{
+  vertical-align: baseline;
+}
+/*Links element*/
+
+.section-box-279-343 .list,
+.view-id-feed_items .list,
+.view-id-employees .list{
+}
+.section-box-279-343 .list ul,
+.view-id-feed_items .list ul,
+.view-id-employees .list ul,
+.ProductListTitleLatest  ul{
+  list-style:none;
+}
+.section-box-279-343 .list ul,
+.view-id-employees .list ul{
+}
+.section-box-279-343 .list ul li,
+.view-id-feed_items .list ul li,
+.view-id-employees .list ul li{
+}
+.section-box-279-343 .list ul li a,
+.view-id-feed_items .list ul li a,
+.view-id-employees .list ul li a,
+.ProductListTitleLatest  ul li a{
+  color:#7d7263;
+  line-height:150%;
+  display:inline-block;
+  background:url(../images/gfx/icon-arrow-t2.png) no-repeat 2px 4px;
+}
+.ProductListTitleLatest  ul li a{
+  line-height: 110%;
+}
+.section-box-279-343 .list ul li a:hover,
+.view-id-feed_items .list ul li a:hover,
+.view-id-employees .list ul li a:hover,
+.ProductListTitleLatest  ul li a{
+  color:#333;
+}
+.section-box-279-343 .list ul li a:hover strong,
+.view-id-feed_items .list ul li a:hover strong,
+.view-id-employees .list ul li a:hover strong,
+.ProductListTitleLatest  ul li a:hover{
+  color:#7f0007!important;
+}
+.section-box-279-343 .list ul li strong,
+.view-id-feed_items .list ul li strong,
+.view-id-employees .list ul li strong{
+  color:#333;
+  font-weight:normal;
+}
+.ProductListTitleLatest  ul li a .ProductDate{
+  color:#7d7263;
+}
+
+/*Races blocks*/
+
+.mwr-t11 .bdy .clr 										{
+}
+.mwr-t11 .bdy .itm 										{
+}
+.mwr-t11 .bdy .itm .lft 								{
+}
+.mwr-t11 .bdy .itm .lft .cal 							{
+  background:url(../images/gfx/icon-calendar.png) no-repeat;
+}
+.mwr-t11 .bdy .itm .lft .cal .mon 						{
+}
+.mwr-t11 .bdy .itm .lft .cal .mon p 					{
+  text-align:center;
+  line-height:100%;
+  color:#fff;
+}
+.mwr-t11 .bdy .itm .lft .cal .day 						{
+}
+.mwr-t11 .bdy .itm .lft .cal .day p 					{
+  text-align:center;
+  line-height:100%;
+  color:#333;
+}
+.mwr-t11 .bdy .itm .rgt 								{
+}
+.mwr-t11 .bdy .itm .rgt p 								{
+  color:#333;
+  line-height:120%;
+}
+.mwr-t11 .bdy .itm .rgt p a 							{
+  color:#333;
+  line-height:120%;
+}
+.mwr-t11 .bdy .itm .rgt p a:hover 						{
+  color:#CB1B24;
+}
+.mwr-t11 .bdy .itm .clr 								{
+}
+.mwr-t11 .more 											{
+}
+.mwr-t11 .more p 										{
+}
+.mwr-t11 .more a 										{
+  color:#7f0007;
+  line-height:110%;
+}
+.mwr-t11 .more a:hover 									{
+  color:#CB1B24;
+}
+
+
+/*Fixes to be removed later*/
+.panel-pane[class*="pane-gallery-reference-view"] .pane-title{
+  display: none;
+}
+
+
+
+
+
+
+
+/*Twitter Block*/
+
+.twitter-t1 											{
+  background:#fff;
+}
+.twitter-t1 .pad 										{
+}
+.twitter-t1 .pad .hd 									{
+}
+.twitter-t1 .pad .hd p 									{
+  line-height:130%;
+  color:#7d7463;
+}
+.twitter-t1 .pad .hd a 									{
+  color:#9d1920;
+}
+.twitter-t1 .pad .list 									{
+}
+.twitter-t1 .pad .list .twtr-hd 						{
+  display:none;
+}
+.twitter-t1 .pad .list .twtr-ft 						{
+  display:none;
+}
+.twitter-t1 .pad .list .twtr-widget 					{
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+}
+.twitter-t1 .pad .list .twtr-widget .twtr-tweet-wrap 	{
+}
+.twitter-t1 .pad .list #twtr-widget-1 .twtr-avatar 		{
+  display:block;
+}
+.twitter-t1 .pad .list .twtr-img 						{
+}
+.twitter-t1 .pad .list .twtr-img img 					{
+  display:block;
+}
+.twitter-t1 .pad .list .twtr-tweet-text 				{
+}
+.twitter-t1 .pad .list .twtr-tweet-text em 				{
+  display:none;
+}
+.twitter-t1 .pad .list .twtr-tweet 						{
+  border-bottom:1px solid #fff!important;
+}
+.twitter-t1 .pad .list .twtr-widget div::-webkit-scrollbar {width:0.8ex;height:1ex;background:#efefef;}
+.twitter-t1 .pad .list .twtr-widget div::-webkit-scrollbar-thumb {background:#bfc0bf;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+
+
+
+/*Blocks 3 inline simmilar*/
+.columns-t2 											{
+  text-align: left;
+}
+.columns-t2 .col1 										{
+}
+.columns-t2 .col2 										{
+}
+.columns-t2 .col3 										{
+}
+.columns-t2 .col4 										{
+}
+.columns-t2 .clr 										{
+}
+.columns-t2 .hd 										{
+}
+.columns-t2 .hd p 										{
+  line-height:120%;
+  color:#9d191f;
+}
+.columns-t2 .bdy 										{
+}
+.columns-t2 .bdy ul 									{
+  list-style-type:none;
+}
+.columns-t2 .bdy ul li 									{
+}
+.columns-t2 .bdy ul li a 								{
+  color:#333;
+  line-height:120%;
+}
+.columns-t2 .bdy ul li a:hover 							{
+  color:#CB1B24
+}
+
+
+
+/************************
+  TOP 10 LIST
+*************************/
+
+.pane-visitdk-topten-list-pane .pane-content{
+}
+.topten_list{
+}
+.topten_list .title{
+  line-height: 36px;
+}
+.topten_list  div.list li div {
+}
+.topten_list ol{
+  color: #999999;
+  list-style-position: inside;
+}
+.topten_list li{
+}
+.topten_list a{
+  color: #464746;
+}
+.topten_list a:hover{
+  color: #CB1B24;
+}
+
+.topten_list .foot {
+}
+.topten_list .foot p {
+}
+.topten_list .foot a 										{
+  color:#464746;
+  line-height:140%;
+}
+.topten_list .foot a:hover 							{
+  color:#CB1B24;
+}
+.topten_list .foot .dk {
+  display: block;
+  background:url(../images/gfx/map-mini-t1.png) no-repeat;
+  vertical-align: baseline;
+}
+
+/************************
+  Encyclopedia listing
+*************************/
+
+#content .ctools-auto-submit-full-form .views-exposed-form .views-exposed-widget.views-submit-button{
+  border: none;
+}
+.ctools-auto-submit-full-form .views-submit-button .button-wrapper{
+}
+
+
+/************************
+  Offer Carousel
+*************************/
+
+.pane-offer-carousel,
+.offer-block{
+}
+.pane-offer-carousel h2,
+.offer-block h2{
+  background: #b4000b;
+}
+.offer-block h2{
+}
+.pane-offer-carousel h2 .title,
+.offer-block h2 .title{
+  display: inline-block;
+  color: #fff;
+  line-height: normal;
+}
+.offer-block h2 .title{
+}
+.pane-offer-carousel .pane-content,
+.offer-block .block_teaser,
+.offer-block .pane-content{
+  background: #800008;
+  color: #fff;
+}
+.offer-block .pane-content{
+}
+.article .offer-block .block_teaser .field-name-body{
+  color: #fff;
+}
+.offer-block .block_teaser h2 {
+  background: none;
+  color: #fff;
+}
+.offer-block .block_image{
+}
+.pane-offer-carousel h2 .align-span,
+.offer-block h2 .align-span{
+    display: inline-block;
+}
+.pane-offer-carousel .views-slideshow-cycle-main-frame-row-item,
+.offer-block .block_teaser {
+}
+#content .offer-block .block_teaser{
+}
+.offer-block h2 .title a{
+  color: #fff;
+}
+.offer-block h2 .title a:hover{
+  color: #fff!important;
+}
+#widget_pager_top_offer_carousel-block{
+}
+#widget_pager_top_offer_carousel-block img{
+}
+#widget_pager_top_offer_carousel-block .views-slideshow-pager-field-item {
+  cursor: pointer;
+}
+#widget_pager_top_offer_carousel-block .views-slideshow-pager-field-item.active{
+  background: url("../images/sprite.png") no-repeat right -851px transparent;
+}
+#widget_pager_top_offer_carousel-block .views-slideshow-pager-field-item .views-content-field-image{
+}
+#widget_pager_top_offer_carousel-block .views-slideshow-pager-field-item.active .views-content-field-image{
+  background: #FFFFFF;
+}
+.pane-offer-carousel .views-field-title{
+}
+.pane-offer-carousel .views-field-title a{
+  color: #fff;
+}
+.pane-offer-carousel .views-field-title a:hover,
+.pane-offer-carousel .views-field-view-node a:hover,
+.offer-block .block_teaser p a:hover{
+  color: #fff!important;
+}
+.pane-offer-carousel .views-slideshow-cycle-main-frame-row-item .views-field-field-offer-images img{
+}
+.pane-offer-carousel .views-slideshow-cycle-main-frame-row-item .views-field-field-offer-images{
+}
+.pane-offer-carousel .views-field-view-node {
+}
+.pane-offer-carousel .views-field-view-node a,
+.offer-block .block_teaser p a{
+  color: #fee373;
+  text-decoration: underline;
+  display: block;
+}
+.pane-offer-carousel .views-field-field-offer-price-description{
+  font-weight: bold;
+}
+.pane-offer-carousel .views-field-field-offer-price{
+  line-height: 37px;
+}
+
+
+/************************
+  TELLUS PRODUCT PAGE
+*************************/
+
+/*FacilityCategoryList*/
+.ProductDistanceList,
+.ProductTransportList{
+}
+.ProductTransportList {
+  border-bottom: 1px solid #D2CBB5;
+}
+.FacilityCategoryList ul,
+.ProductTransportList ul{
+}
+.FacilityCategoryList > ul,
+.ProductTransportList ul{
+}
+.FacilityCategoryList ul > li h4,
+.ProductTransportList ul > li > h4{
+  background: url("../images/sprite-bullets.png") no-repeat -138px -125px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.FacilityCategoryList ul > li h4.expanded,
+.ProductTransportList ul > li > h4.expanded{
+  background-position: -107px -150px;
+}
+.FacilityCategoryList ul > li > ul,
+.ProductTransportList ul > li > div{
+}
+.FacilityCategoryList ul > li > ul li,
+.ProductTransportList ul > li > div{
+}
+/*TellusBookingBox*/
+.ProductInfoSidebar .TellusBookingBox{
+  border: 0;
+}
+/*ProductOtherContactList*/
+.TellusProductContacts{
+}
+.ProductOtherContactList table{
+}
+.ProductOtherContactList th{
+  color: #333333;
+  line-height: 120%;
+  font-weight: normal;
+}
+.ProductOtherContactList td,
+.ProductOtherContactList td *{
+  vertical-align: top;
+}
+.ProductOtherContactList td:first-child{
+  color: #333333;
+  line-height: 120%;
+}
+
+.ProductOtherContactList td:first-child + td{
+  color: #7D7263;
+  display: block;
+  line-height: 170%;
+}
+/*ProductLinksList*/
+.ProductLinksList ul,
+.ProductDownloadsList ul{
+}
+.ProductLinksList ul li,
+.ProductDownloadsList ul li{
+  background: url(../images/sprite-bullets.png) -290px 6px;
+}
+.ProductDownloadsList ul li{
+  background-position: -80px -175px;
+}
+/*ProductTripadvisor*/
+.ProductInfoSidebar > div.ProductTripadvisor {
+}
+/*ProductTwitter*/
+.ProductTwitter{
+}
+
+/*ProductRightSidebar*/
+
+/*ProductDistanceList*/
+.TellusProductMap > div.ProductDistanceList{
+  border: 0;
+}
+.ProductDistanceList ul{
+}
+.ProductDistanceList h4{
+  font-weight: bold;
+  color: #7D7263;
+}
+.ProductDistanceList .ProductDistanceInfo{
+  color: #37302c;
+}
+
+
+/************************
+  Danish tourism
+*************************/
+
+#content #visitdk-regions-list{
+}
+#content #visitdk-regions-current{
+}
+#content #visitdk-regions-map{
+}
+#content #visitdk-regions-list .custom-block,
+#content #visitdk-regions-list .regions-list,
+#content #visitdk-regions-current .region-information{
+}
+#content #visitdk-regions-list .custom-block h2{
+  color: #9d191f;
+}
+#content #visitdk-regions-current .region-information h2{
+}
+#content #visitdk-regions-list .custom-block .body,
+#content #visitdk-regions-current .region-information .body{
+  line-height: 17px;
+}
+#content #visitdk-regions-list .regions-list a{
+  color: #37302c;
+  line-height: 24px;
+}
+#content #visitdk-regions-list .regions-list a:hover {
+  color: #CB1B24;
+}
+.pane-tellus-related-products,
+.pane-tellus-near-by{
+}
+.pane-tellus-near-by{
+}
+.pane-tellus-near-by .title,
+.pane-tellus-related-products .title{
+  color: #9d191f;
+}
+.pane-tellus-near-by .links-simple-black{
+}
+.pane-tellus-near-by .links-simple-black .links,
+.pane-tellus-near-by .links-simple-black .links ul{
+}
+.pane-tellus-related-products{
+}
+.pane-tellus-near-by .links-simple-black .pane-title{
+}
+.pane-tellus-near-by .links-simple-black a {
+    background: url("../images/sprite-bullets.png") no-repeat -49px -203px ;
+    font-weight: bold;
+    line-height: 19px;
+    
+}
+.pane-tellus-related-products .TellusProductList{
+}
+.pane-tellus-related-products .TellusProduct{
+}
+.pane-tellus-related-products .TellusProduct:first-child{
+}
+.pane-tellus-related-products .TellusProductList .ProductName{
+}
+.pane-tellus-related-products .TellusProductList address{
+}
+.pane-tellus-related-products .TellusProductList .ProductImageWrapper,
+.pane-tellus-related-products .TellusProductList .ProductImageWrapper img{
+}
+.pane-tellus-related-products .TellusProductList .ProductTextList{
+}
+.panel-gdpanel .element-share-button{
+}
+/************************
+  DOWNLOAD BOX
+*************************/
+
+.view-download-block-news{
+}
+.view-download-block-news .views-field-field-images-icon{
+
+}
+.view-download-block-news .views-row *{
+  display: inline-block;
+  vertical-align: top;
+}
+.view-download-block-news .views-row a{
+  color: #7F0006;
+}
+.view-download-block-news .views-row a:hover {
+  color: #CB1B24;
+}
+.view-download-block-news .views-row img{
+}
+
+/************************
+  FACEBOOK LIKE BUTTONS
+*************************/
+.pane-fblikebutton-fblikebutton-block {
+  border-top: 1px solid #D2CBB5;
+}
+.pane-fblikebutton-fblikebutton-block ~ .pane-custom h2,
+.pane-follow-site h2{
+  color: #7d7463;
+  border-top: 1px solid #D2CBB5;
+}
+.pane-follow-site h2{
+  border: 0 none;
+}
+.pane-node-fb-comments{
+  border-top: 1px solid #D2CBB5;
+  border-bottom: 1px solid #D2CBB5;
+}
+.panel-display .follow-link-wrapper{
+}
+.pane-follow-site{
+}
+.pane-follow-site ~ .pane-visitdk-copy-url-copy-url{
+}
+.layout-cols-2 .pane-fblikebutton-fblikebutton-block + .panel-separator {
+  margin: 0;
+}
+
+/************************
+  CAMPAIGN PAGES
+*************************/
+.links-in-two-columns{
+}
+.links-in-two-columns .links ul li{
+}
+.links-in-two-columns .left,
+.links-in-two-columns .right{
+}
+
+/************************
+  UNIFIED FILTERS
+*************************/
+
+/*Az-listing*/
+
+ul.see-all{
+}
+ul.see-all + ul{
+}
+
+/*Gallery Filters*/
+#content .views-exposed-widgets {
+}
+html.js fieldset.collapsed {
+}
+.views-exposed-form .views-exposed-widget {
+}
+#content .views-exposed-form .views-exposed-widget {
+  display: block;
+}
+.views-exposed-form .form-checkboxes {
+}
+fieldset legend {
+}
+fieldset .bef-checkboxes input {
+}
+.bef-select-as-checkboxes input{
+  position: absolute;
+  visibility: hidden;
+}
+.ie7 .bef-select-as-checkboxes input,
+.ie8 .bef-select-as-checkboxes input{
+  visibility: visible!important;
+  filter: Alpha(Opacity=0);
+}
+/*Search filters*/
+
+#search-panel.panel-threecol252550 .panel-col-main-content-col-1 [class*="pane-facetapi"],
+#search-panel.panel-threecol252550 .panel-col-main-content-col-2 [class*="pane-facetapi"]{
+}
+#search-panel.panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title, 
+.panel-twocol_50_50 .panel-pane[class*="pane-facetapi"] li a,
+html.js .views-exposed-form fieldset.collapsible .fieldset-legend,
+.collapsibleList > li > .collapse-arrow,
+.view-meet-danes-list #edit-tid-all,
+.collapsibleList + a ,
+.facetapi-facetapi-links li a:hover,
+.facetapi-facetapi-links li .active-link a,
+.facetapi-facetapi-links .facet_level_collapsible{
+  color: #37302c;
+  display: block;
+  background: none;
+  cursor: pointer;
+}
+#search-panel.panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title:hover,
+#search-panel.panel-threecol252550 .panel-pane.collapsiblock-processed[class*="section-box-279"] h2 .title:hover{
+  cursor: pointer;
+}
+
+
+/*Search listing filters*/
+
+.panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title.collapsiblock.collapsiblockCollapsed:hover,
+html.js .views-exposed-form fieldset.collapsible .fieldset-legend:hover,
+.collapsibleList > li > .collapse-arrow:hover,
+.view-meet-danes-list #edit-tid-all:hover {
+  background: #EFEEEA;
+}
+#content .panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title.collapsiblock.collapsiblockCollapsed a,
+#content .panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title.collapsiblock a, 
+.facetapi-facet-im-field-office-type li.leaf span,
+fieldset legend .fieldset-title,
+fieldset.collapsed legend .fieldset-title,
+.collapsibleList > li > .collapse-arrow span,
+.view-meet-danes-list #edit-tid-all {
+  display: block;
+  color: #37302c;
+  background: url(../images/arrow-gold-down.png) no-repeat 100% 10px;
+}
+.panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title.collapsiblock a,
+.collapsibleList > li > .collapse-arrow.active.active-trail span,
+fieldset.active.active-trail legend .fieldset-title,
+fieldset legend .fieldset-title{
+  color: #7f0006;
+}
+.panel-threecol252550 .panel-pane[class*="section-box-279"].collapsiblock-processed h2 .title {
+  display: inline-block;
+  vertical-align: middle;
+}
+#content .facetapi-facetapi-links,
+#content .facetapi-facetapi-links li,
+#content .facetapi-facetapi-checkbox-links,
+#content .facetapi-facetapi-checkbox-links li,
+.collapsibleList,
+.collapsibleList ul,
+.collapsibleList li{
+  list-style:none;
+  list-style-image: none;
+}
+#content div .collapsiblock a,
+.facetapi-facetapi-links,
+.facetapi-facetapi-links li,
+#content .facetapi-facetapi-checkbox-links,
+#content .facetapi-facetapi-checkbox-links li{
+  background: none;
+}
+.collapsibleList{
+}
+.panel-threecol252550 .panel-col-main-content-col-1 .panel-pane.section-box-279 .facetapi-facetapi-links{
+}
+.panel-threecol252550 .panel-col-main-content-col-1 .panel-pane.section-box-279 .facetapi-facetapi-links li{
+}
+.facetapi-facetapi-links li a,
+.facetapi-facetapi-links li span.active-link,
+#content .facetapi-facetapi-checkbox-links li a,
+.bef-checkboxes label,
+fieldset .bef-checkboxes label,
+.collapsibleList > li > ul li a,
+.view-meet-danes-list .form-type-bef-link{
+  color: #262626;
+  display: block;
+  cursor: pointer;
+}
+.facetapi-facetapi-links li a:hover,
+.facetapi-facetapi-links li span.active-link,
+#content .facetapi-facetapi-checkbox-links li a:hover,
+fieldset .bef-checkboxes label:hover,
+fieldset .bef-checkboxes label.checked,
+.bef-select-as-checkboxes label:hover,
+.collapsibleList > li > ul li a:hover,
+.collapsibleList > li > ul li a.active,
+.view-meet-danes-list .form-type-bef-link:hover,
+.view-meet-danes-list .form-type-bef-link.selected,
+.bef-checkboxes label.checked{
+  background: #EFEEEA;
+  font-weight: bold;
+}
+.panel-threecol252550 .panel-col-main-content-col-1 .panel-pane.section-box-279 .facetapi-facetapi-links li:hover a,
+.panel-threecol252550 .panel-col-main-content-col-1 .panel-pane.section-box-279 .facetapi-facetapi-links li.active{
+}
+.panel-threecol252550 .panel-pane.section-box-279 .facetapi-facetapi-links li .facetapi-active{
+}
+.panel-threecol252550 .panel-col-main-content-col-2 .panel-pane.section-box-279 .facetapi-facetapi-links{
+}
+
+fieldset .summary{
+}
+
+#content .views-exposed-form .form-item, .views-exposed-form .form-submit {
+}
+
+.ie7 legend{
+ }
+.views-exposed-widget{
+ }
+ 
+ /*Galleries search*/
+ 
+ .views-field-field-video + .views-field-field-photo{
+   display: none;
+ }
+ 
+ /*pane-tellus-cusom-blocks*/
+ 
+ .pane-tellus-cusom-blocks{
+ }
+ 
+ .panel-twocol_50_50 .panel-col-top h2 {
+   color: #9E1C22;
+ }
+
+.topten-map-legend {
+  background: url(../images/sprite-bullets.png) no-repeat -10px -218px ;
+}
+.panel-col-top-left ul {
+  list-style: none;
+  list-style-image: none;
+}
+.panel-col-top-left ul li {
+  background: url("../images/sprite-bullets.png") no-repeat -255px -21px  ; 
+  list-style: none;
+  list-style-image: none;
+}

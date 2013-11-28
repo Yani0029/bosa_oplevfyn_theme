@@ -1,0 +1,27 @@
+form .panel-threecol252550 { 
+  padding: 1em 1em 0;
+}
+form .panel-threecol252550 > .panel-panel-wrapper,
+form .panel-threecol252550 >  .panel-panel { 
+  margin-bottom: 1em;
+}
+form .panel-threecol252550 >  .panel-panel-wrapper > .panel-col-last { 
+  margin: 0;
+}
+form .panel-threecol252550 .panel-separator {
+  margin: 0 0 1em 0;
+}
+form .panel-col-main-content-col-1 {
+  width: 24%;
+  margin-right: 1%;
+  float: left;
+}
+form .panel-col-main-content-col-2 {
+  width: 24%;
+  margin-right: 1%;
+  float: left;
+}
+form .panel-col-main-content-col-3 {
+  width: 50%;
+  float: left;
+}

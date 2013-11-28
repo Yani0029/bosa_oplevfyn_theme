@@ -1,0 +1,348 @@
+/**
+ * Use this file to conditionally override styles for devices.
+ * If you adjust the media queries in the theme settings you should
+ * adjust them here so they match.
+ */
+
+/* Smartphone portrait 
+@media only screen and (max-width:320px) {
+  
+}
+*/
+
+/* Smartphone landscape */
+@media only screen /*and (min-width:321px)*/ and (max-width:480px) {
+  
+/*#toolbar,
+#main-content > header:first-child #tasks{
+  display: none!important;
+}
+body{
+  padding: 0!important;
+}
+  
+.lb-h,
+.lb-h input.form-text,
+.block_image img,
+.section-box-full-width .block_image img,
+.panel-pane.section-box-250-470-first,
+.section-box-572,
+.section-box-572-160,
+.section-box-572-470,
+.panel-twocol_50_50_stacked >  .panel-panel-wrapper > .panel-panel,
+.section-box-572-160 h1 .title,
+.form-newsletter h1 .title,
+.view-filter-galleries .section-box-279 .views-field-title a,
+.section-box-425,
+.section-box-425-280,
+.section-box-425-328,
+.section-box-425-280,
+.section-box-865,
+.section-box-865-470,
+.view-filter-galleries .pager,
+.section-box-1158,
+.section-box-1158-130,
+.section-box-full-width,
+#content .panel-pane.section-box-full-width,
+.section-box-206,
+.section-box-206-280,
+.panel-col-col-4,
+.section-box-279-343 .left + .right,
+.pane-node-terms .pane-content,
+.twitter-t1 ,
+.columns-t2 .col1, 
+.columns-t2 .col2, 
+.columns-t2 .col3, 
+.columns-t2 .col4,
+.HERE_STRUCTURE_BEGINS,
+.container .panel-twocol_25_75_stacked,
+.container .panel-twocol_25_75_stacked > .inner,
+.adform-adbox,
+.header-section .inside,
+#main-content,
+#page > footer > .inner,
+#block-menu-block-2,
+#block-menu-block-1,
+.block-market-redirect select,
+#block-follow-site .follow-links ,
+#content .panel-col-main-content .inside,
+#content .panel-col-top .inside,
+.container .panel-twocol_75_25_stacked > .panel-panel.panel-col-bottom-row ,
+#content .panel-col-top,
+#content .panel-col-main-content,
+#content .panel-col-nav,
+.panel-col-nav > .panel-pane:first-child,
+.container .panel-threecol_40_25_35 .panel-col-main-content-2-col-wrapper,
+.container .panel-threecol_40_25_35 > .panel-panel-wrapper > .panel-panel,
+.container .panel-threecol_40_25_35 > .panel-panel-wrapper > .panel-panel-wrapper > .panel-panel,
+.container .panel-threecol_40_25_35 > .panel-panel-wrapper.panel-col-main-content-col-wrapper > .panel-panel-wrapper > .panel-panel.panel-col-first,
+.container .panel-threecol_40_25_35 > .panel-panel-wrapper.panel-col-main-content-col-wrapper > .panel-panel-wrapper > .panel-panel.panel-col,
+.container .panel-twocol_35_65_stacked > .panel-panel-wrapper > .panel-panel,
+.container .panel-twocol_35_65_stacked > .panel-panel-wrapper > .panel-panel.panel-col-last,
+.container .panel-tema-layout            > .panel-panel-wrapper > .panel-panel.panel-col-top-left,
+.container .panel-twocol_75_25_stacked   > .panel-panel-wrapper > .panel-panel.panel-col-top-left,
+.container .panel-tema-layout           > .panel-panel-wrapper > .panel-panel.panel-col-top-right,
+.container .panel-twocol_75_25_stacked  > .panel-panel-wrapper > .panel-panel.panel-col-top-right,
+.container .panel-tema-layout >         .panel-panel-wrapper > .panel-panel-wrapper.panel-col-content-bottom-wrapper > .panel-panel.panel-col-first,
+.container .panel-threecol_50_25_25 >   .panel-panel-wrapper > .panel-panel-wrapper.panel-col-content-bottom-wrapper > .panel-panel.panel-col-first,
+.container .panel-tema-layout >         .panel-panel-wrapper > .panel-panel-wrapper.panel-col-content-bottom-wrapper > .panel-panel.panel-col-last,
+.container .panel-threecol_50_25_25 >   .panel-panel-wrapper > .panel-panel-wrapper.panel-col-content-bottom-wrapper > .panel-panel.panel-col-last,
+.container .panel-tema-layout >         .panel-panel-wrapper > .panel-col-main-content-2-col-wrapper,
+.container .panel-threecol_50_25_25 >   .panel-panel-wrapper > .panel-col-main-content-2-col-wrapper,
+.container .panel-tema-layout >         .panel-panel-wrapper > .panel-panel.panel-col-main-content-col-3,
+.container .panel-threecol_50_25_25 >   .panel-panel-wrapper > .panel-panel.panel-col-main-content-col-3,
+.container .panel-tema-layout >         .panel-panel-wrapper > .panel-panel-wrapper > .panel-panel.panel-col-main-content-col-1,
+.container .panel-threecol_50_25_25 >   .panel-panel-wrapper > .panel-panel-wrapper > .panel-panel.panel-col-main-content-col-1,
+.container .panel-tema-layout >         .panel-panel-wrapper > .panel-panel-wrapper > .panel-panel.panel-col-main-content-col-2,
+.container .panel-threecol_50_25_25 >   .panel-panel-wrapper > .panel-panel-wrapper > .panel-panel.panel-col-main-content-col-2 ,
+.container .panel-tema-layout >         .panel-panel-wrapper > .panel-panel-wrapper > .panel-col-main-content-col-1 .pane-node-title,
+.container .panel-threecol_50_25_25 >   .panel-panel-wrapper > .panel-panel-wrapper > .panel-col-main-content-col-1 .pane-node-title,
+.container .panel-tema-layout >         .panel-panel-wrapper > .panel-panel-wrapper > .panel-col-main-content-col-1 .pane-node-title + .panel-separator,
+.container .panel-threecol_50_25_25 >   .panel-panel-wrapper > .panel-panel-wrapper > .panel-col-main-content-col-1 .pane-node-title + .panel-separator,
+.panel-tema-layout > .panel-panel-wrapper.panel-col-content-bottom-wrapper > .panel-panel,
+.panel-tema-layout > .panel-panel-wrapper.panel-col-content-bottom-wrapper > .panel-col-last,
+.container .panel-twocol_75_25_stacked .panel-col-main-content-col-1,
+.container .panel-twocol_75_25_stacked > .panel-panel-wrapper,
+.container .panel-twocol_75_25_stacked > .panel-panel,
+.container .panel-twocol_75_25_stacked > .panel-panel-wrapper > .panel-panel.panel-col-last.panel-col-main-content-col-2 ,
+.panel-3col > .panel-panel.panel-col-first,
+.panel-3col > .panel-panel.panel-col-last,
+.panel-3col > .panel-panel.panel-col,
+.container .panel-twocol_25_75_stacked,
+.container .panel-twocol_25_75_stacked > .inner,
+.container .panel-twocol_25_75_stacked > .inner >  .panel-panel-wrapper > .panel-panel,
+.container .panel-twocol_25_75_stacked > .inner > .panel-panel-wrapper > .panel-panel.panel-col-last,
+.container .panel-twocol_50_50 >  .panel-panel-wrapper > .panel-panel,
+.container .panel-twocol_50_50 >  .panel-panel-wrapper > .panel-panel .inner,
+.container .panel-twocol_50_50_stacked >   .panel-panel-wrapper > .panel-panel.panel-col-main-content-col-1,
+.container .panel-twocol_50_50_stacked >   .panel-panel-wrapper > .panel-panel.panel-col-main-content-col-2,
+.panel-pane[class*="section-box-279"] h2 .title{
+  width: 100%!important;
+  position: static!important;
+  clear: both!important;
+  margin-right: 0!important;
+  margin-left: 0!important;
+  height: auto !important;
+  float: none !important;
+  
+}
+.panel-pane[class*="section-box-279"]{
+  width: 48%!important;
+  position: static!important;
+  margin-right: 0!important;
+  margin-left: 0!important;
+  height: auto !important;
+  float: left !important;
+  margin-left: 1%!important;
+  margin-right: 1% !important;
+}
+#site-name {
+  float: none;
+}
+img{
+  width: 100%!important;
+  height: auto!important;
+  position: static !important;
+  max-height: auto!important;
+}
+.align-span{
+  display: none!important;
+}
+.title{
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  min-height: 50px;
+}
+.block_teaser p{
+  margin-bottom: 14px !important;
+}
+
+NAVS 
+
+body .above-header{
+  background: #0E272F!important;
+}
+.jqTransformSelectWrapper{
+  width: 100%!important;
+}
+
+Nav mobile links
+#block-menu-block-2 ul.menu,
+#block-menu-block-2 ul.menu li,
+#block-menu-block-1 ul.menu,
+#block-menu-block-1 ul.menu li,
+.region-footer li{
+  display:block!important;
+}
+
+body .region-above-header li,
+body #block-menu-block-2 ul.menu li,
+body #page > footer nav li {
+  width: 100%;
+  margin: 0;
+  float: none;
+  display:block;
+  background: url("../images/sprite-x.png") repeat-x scroll center top #0E272F !important;
+}
+
+.region-above-header .link-end{
+  display:none!important;
+}
+
+.region-above-header li a,
+body #page > footer nav li a{
+  width: 100%!important;
+  margin: 0!important;
+  float: none!important;
+  display: block!important;
+  padding: 0 0 0 16px;
+}
+body #block-menu-block-2 ul.menu > li > a,
+body #page > footer nav li a{
+  line-height: 40px;
+}
+body #block-menu-block-2 ul.menu > li.active-trail > a,
+body #block-menu-block-2 ul.menu > li > a:hover{
+  background-position: left -267px;
+}
+blocks header
+
+body #block-follow-site,
+body .block-market-redirect{
+  float: none;
+}
+
+body .region-above-header > .block{
+  background: none!important;
+}
+
+
+.element-add-button,
+.element-share-button{
+  margin: 20px 0 14px; 
+}
+
+Footer elements
+
+body .footer-logo{
+  float: right;
+}
+body #page > footer .block{
+    clear: both;
+    display: block;
+    float: none;
+    padding: 0;
+}
+body #page > footer .region-footer .block:first-child{
+  clear: none;
+  padding-left: 20px;
+}
+
+#page > footer .block-content .menu {
+  margin-top: 20px;
+}
+#page > footer nav ~ nav ul{
+  text-align: center;
+}
+#page > footer nav ~ nav li,
+#page > footer nav ~ nav li a{
+  display: inline-block!important;
+  background: none!important;
+  padding: 0 10px;
+  width: auto !important;
+}
+#page > footer nav ~ nav li a{
+  padding: 0!important;
+}
+.container .panel-twocol_75_25_stacked > .panel-panel-wrapper > .panel-panel.panel-col-top-left{
+  padding: 0 !important;
+}
+.container .panel-twocol_75_25_stacked > .panel-panel-wrapper > .panel-panel.panel-col-top-left .inner{
+  padding: 20px;
+}*/
+}
+/* Tablet portrait */
+@media only screen and (min-width:481px) and (max-width:768px) {
+}
+
+/* Tablet landscape */
+@media only screen and (min-width:769px) and (max-width:1024px) {
+}
+
+/* Standard layout */
+@media only screen and (min-width:1025px) {
+ /*
+.panel-pane[class*="section-box-279"] {
+  width: 23.8%;
+}
+
+.panel-col-main-content .panel-pane[class*="section-box"],
+.panel-col-top .panel-pane[class*="section-box"],
+.panel-twocol_75_25_stacked .panel-pane[class*="section-box"],
+.panel-twocol_25_75_stacked .panel-pane[class*="section-box"],
+.panel-twocol_50_50 .panel-pane[class*="section-box"],
+.item-list .pager,
+.panel-col-col-4 .panel-pane[class*="section-box"] {
+  margin-right: 1.2%;
+  margin-left: 0;
+}
+.panel-pane.section-box-250-470-first {
+    margin-left: 1.2% !important;
+    padding-left: 1.2%;
+    width: 21.4%;
+}
+
+.section-box-572,
+.section-box-572-160,
+.section-box-572-470,
+.panel-twocol_50_50_stacked >  .panel-panel-wrapper > .panel-panel {
+  width: 48.8%;
+}
+
+.section-box-865,
+.section-box-865-470,
+.view-filter-galleries .pager {
+  width: 73.8%;
+}
+
+.section-box-425,
+.section-box-425-280,
+.section-box-425-328 {
+  width: 36.3%;
+}
+
+.section-box-425-280,
+.section-box-206,
+.section-box-206-280 {
+  padding: 0;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.section-box-206,
+.section-box-206-280 {
+    width: 17.55%;
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}

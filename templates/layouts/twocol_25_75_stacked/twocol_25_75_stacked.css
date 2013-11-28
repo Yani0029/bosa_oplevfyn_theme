@@ -1,0 +1,22 @@
+.panel-twocol_25_75_stacked { 
+  padding: 0;
+}
+.panel-twocol_25_75_stacked > .inner > .panel-panel-wrapper,
+.panel-twocol_25_75_stacked > .inner > .panel-panel { 
+  width: 100%; 
+  margin-bottom: 14px;
+}
+.panel-twocol_25_75_stacked > .inner >  .panel-panel-wrapper > .panel-panel { 
+  float: left;
+  margin: 0 14px 0 0;
+  width: 23%;
+}
+.panel-twocol_25_75_stacked > .inner >  .panel-panel-wrapper > .panel-col-last { 
+  margin: 0;
+}
+.panel-twocol_25_75_stacked > .inner >  .panel-separator {
+  margin: 0 0 14px 0;
+}
+.panel-twocol_25_75_stacked > .inner > .panel-panel-wrapper > .panel-panel.panel-col-last {
+  width: 70%;
+}

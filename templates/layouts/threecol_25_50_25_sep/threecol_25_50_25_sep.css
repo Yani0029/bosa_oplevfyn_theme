@@ -1,0 +1,21 @@
+form .panel-threecol_25_50_25_sep { 
+  padding: 1em 1em 0;
+}
+form .panel-threecol_25_50_25_sep  .panel-panel-wrapper,
+form .panel-threecol_25_50_25_sep   .panel-panel { 
+  margin-bottom: 1em;
+}
+form .panel-threecol_25_50_25_sep  .panel-panel-wrapper  .panel-panel{ 
+  float: left;
+  margin: 0 1em 0 0;
+  width: 24%;
+}
+form .panel-threecol_25_50_25_sep   .panel-panel-wrapper  .panel-col-last { 
+  margin: 0;
+}
+form .panel-threecol_25_50_25_sep .panel-separator {
+  margin: 0 0 1em 0;
+}
+form .panel-threecol_25_50_25_sep .panel-panel-wrapper.panel-col-main-content-col-wrapper .panel-panel.panel-col {
+  width: 45%;
+}

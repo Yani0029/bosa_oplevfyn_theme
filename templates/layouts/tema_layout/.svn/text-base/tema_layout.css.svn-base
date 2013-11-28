@@ -1,0 +1,29 @@
+form .panel-tema-layout { 
+  padding: 1em 1em 0;
+}
+form .panel-tema-layout > .panel-panel-wrapper,
+form .panel-tema-layout > .panel-panel { 
+  width: 100%; 
+  margin-bottom: 1em;
+}
+form .panel-tema-layout > .panel-panel-wrapper > .panel-panel,
+form .panel-tema-layout > .panel-panel-wrapper > .panel-panel-wrapper > .panel-panel{ 
+  float: left;
+  margin: 0 1em 0 0;
+  width: 48%;
+}
+form .panel-tema-layout > .panel-panel-wrapper > .panel-col-last { 
+  margin: 0;
+}
+form .panel-tema-layout .panel-separator {
+  margin: 0 0 1em 0;
+}
+form .panel-tema-layout > .panel-panel-wrapper.panel-col-main-content-col-wrapper > .panel-panel-wrapper > .panel-panel,
+form .panel-tema-layout > .panel-panel-wrapper.panel-col-main-content-col-wrapper > .panel-panel{
+  width: 30%;
+}
+form .panel-tema-layout > .panel-panel-wrapper > .panel-col-top{
+  float: none;
+  width: 100%;
+  margin: 0 0 1em 0;
+}

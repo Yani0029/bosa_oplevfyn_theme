@@ -1,0 +1,10 @@
+form .panel-gdpanel { 
+  padding: 1em 1em 0;
+}
+form .panel-gdpanel .panel-panel { 
+  width: 100%; 
+  margin-bottom: 1em;
+}
+form .panel-gdpanel .panel-separator {
+  margin: 0 0 1em 0;
+}

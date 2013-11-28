@@ -1,0 +1,1072 @@
+/**
+ * Adaptivetheme takes a pretty heavy handed approach to form styling,
+ * this is so you can have decent looking forms without having to do a
+ * lot of work. The CSS is included in full, including all positioning,
+ * so you can change anything you want.
+ */
+form {
+}
+.form-item label {
+  font-weight: normal;
+}
+input {
+}
+input[type="text"]{
+  text-indent: 5px;
+}
+input.text,
+input.title,
+textarea,
+select {
+}
+
+/* Focus styles for accessibility and usabiltiy. */
+.form-text:focus,
+.form-checkbox:focus,
+.form-radio:focus,
+.form-select:focus {
+}
+textarea:focus {
+}
+/*Error messages*/
+
+.form-item input.error, 
+.form-item textarea.error, 
+.form-item select.error{
+  background: #e2cacc;
+  border: #800109 1px solid;
+}
+.form-item input.error, 
+.form-item textarea.error, 
+.form-item select.error,
+.form-item input.error + .description, 
+.form-item textarea.error + .description, 
+.form-item select.error + .description{
+  color: #800008;
+}
+div.error{
+  border: 0;
+  background: #fee374;
+  color: #131313;
+  font-weight: bold;
+}
+#main-content > div.error{
+  margin: 0 0 14px;
+}
+div.messages ul{
+}
+.close-message{
+  
+  font-weight: normal;
+  cursor: pointer;
+}
+/* Inputs and textarea */
+input.text,
+input.title {
+}
+input.form-text,
+textarea {
+  background: #fafafa;
+  border: 1px solid #d5d4d0;
+}
+input.form-text {
+  line-height: 28px;
+}
+textarea,
+input {
+}
+div.resizable-textarea textarea {
+}
+.button-wrapper input {
+
+}
+.button-wrapper {
+  border: 2px #e6e4db solid;
+  background: #b80719;
+  border-radius: 5px;
+  display: inline-block;
+}
+.button-wrapper input,
+.button-wrapper a,
+.button-wrapper a:hover {
+  height: 29px;
+  border: 0 none;
+  white-space: nowrap !important;
+  vertical-align: baseline !important;
+  text-align: center;
+  color: #fff;
+  background: #b80719;
+  background-image: linear-gradient(bottom, rgb(184,7,25) 0%, rgb(218,1,8) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(184,7,25) 0%, rgb(218,1,8) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(184,7,25) 0%, rgb(218,1,8) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(184,7,25) 0%, rgb(218,1,8) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(184,7,25) 0%, rgb(218,1,8) 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(184,7,25)), color-stop(1, rgb(218,1,8)));
+  cursor: pointer;
+}
+.button-wrapper a {
+  display: inline-block;
+  line-height: 27px;
+}
+.button-wrapper a:hover{
+  color: #fff!important;
+}
+.ie7 .button-wrapper input {
+}
+#content .views-exposed-form .views-exposed-widget.views-submit-button {
+  text-align: center;
+  border-top: 1px solid #d5d4d0;
+  visibility: hidden;
+}
+.views-submit-button .button-wrapper input {
+}
+
+/* Misc */
+.form-item,
+.form-action {
+}
+.exposed-filters .form-item {
+}
+.form-item textarea.error {
+}
+
+
+/* Required, mark */
+span.form-required,
+span.marker {}
+
+
+/* Fieldsets */
+fieldset {
+  background: transparent;
+  border: 0;
+}
+fieldset fieldset:last-child {
+}
+.form-type-radio .description,
+.form-type-checkbox .description {
+}
+*:first-child+html fieldset {
+  background-color: transparent;
+  background-position: 0 10px;
+}
+*:first-child+html fieldset > .description,
+*:first-child+html fieldset .fieldset-wrapper .description {
+}
+fieldset legend {
+  display: block;
+}
+*:first-child+html fieldset legend,
+*:first-child+html fieldset.collapsed legend {
+  display: inline;
+}
+html.js fieldset.collapsed {
+  background: transparent;
+}
+/* Form descriptions */
+.description {}
+
+/* Search */
+#search-block-form {}
+#search-block-form > div {}
+#search-block-form .container-inline {}
+#edit-search-block-form-1-wrapper {}
+#search-block-form label {}
+#search-block-form input {}
+#search-block-form .form-submit {}
+#search-block-form .form-text {}
+
+/* Advanced search form */
+fieldset#edit-advanced fieldset {
+  
+}
+fieldset#edit-advanced fieldset .fieldset-legend {
+  background: none;
+}
+.advanced-search-submit {
+  
+}
+.search-advanced .criterion {
+  
+}
+#edit-keywords-fieldset .form-item:first-child {
+}
+#search-form {
+}
+#search-form > div {}
+#search-form .container-inline {}
+#search-form label {}
+#search-form input {}
+#search-form .form-item {}
+#search-form .form-submit {}
+
+/* User login */
+#user-login-form ul {
+}
+#user-login-form li.openid-link,
+#user-login-form li.user-link {
+  text-align: center;
+}
+#user-login ul {
+}
+#user-login ul li {
+}
+#user-login-form .item-list li {
+  list-style: none;
+}
+#user-login-form li.openid-link,
+#user-login li.openid-link {
+  background: none;
+}
+
+/* hide lable class - mostly deprecated but could be present in an upgraded theme */
+.hide-label label {
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  background: none;
+}
+
+/* Admin filters, could be redundant, need to test. */
+#user-admin-filter ul li,
+#article-admin-filter ul li {
+  list-style: none;
+}
+#article-admin-filter ul {
+}
+#edit-operation-wrapper select {
+}
+
+/* Tips overrides */
+.field-type-text-long fieldset {
+}
+.field-type-text-long fieldset .form-item {
+}
+fieldset .filter-help {
+}
+.filter-guidelines {
+}
+.tips {
+}
+
+/* Special case modules */
+#devel-switch-user-form {
+}
+
+
+/**************************************
+             JQTRANSFORM STYLES
+***************************************/
+form.jqtransformdone label {
+	display: block;
+	
+}
+form.jqtransformdone div.rowElem {
+	
+}
+/* -------------
+ * Buttons
+ * ------------- */
+button.jqTransformButton {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+*:first-child+html button.jqTransformButton[type] {width: 1;} /* IE7 */
+
+button.jqTransformButton span {
+	background: transparent url(../images/transform/btn_right.gif) no-repeat right top;
+	display: block;
+	
+}
+
+button.jqTransformButton span span {
+	background: transparent url(../images/transform/btn_left.gif) no-repeat top left;
+	color: #333;
+	font-weight: normal;
+	line-height: 13px;
+	display: block;
+	text-decoration: none;
+}
+
+/*hover*/
+button.jqTransformButton_hover span span { background-position: left -33px ; }
+button.jqTransformButton_hover span { background-position: right -33px ; }
+
+/*clicked*/
+button.jqTransformButton_click span span { background-position: left -66px ; }
+button.jqTransformButton_click span { background-position: right -66px ; }
+
+/* IE 6 */
+* html button.jqTransformButton {  }
+* button.jqTransformButton span span {  }
+/* IE 7 */
+*+ html button.jqTransformButton {  }
+*+ button.jqTransformButton span span { }
+
+
+/* -------------
+ * Inputs
+ * ------------- */
+.jqTransformInputWrapper {
+	background: transparent url(../images/transform/input/input_text_left.gif) no-repeat left top;
+	
+}
+
+.jqTransformInputInner {
+	background: transparent url(../images/transform/input/input_text_right.gif) no-repeat top right;
+}
+
+.jqTransformInputInner div {
+}
+
+.jqTransformInputInner div input {
+	line-height: 18px;
+	vertical-align: middle;
+	color:#404040;	
+	border: none;
+	background:transparent;
+}
+
+/*  IE6 */
+* html .jqTransformInputInner div input {
+}
+/* Ie7 */
+*+ html .jqTransformInputInner div input {
+}
+
+/*hover*/
+.jqTransformInputWrapper_hover { background-position: left -31px ;}
+.jqTransformInputWrapper_hover div.jqTransformInputInner { background-position: right -31px ;}
+
+/*focus*/
+.jqTransformInputWrapper_focus { background-position: left -62px ;}
+.jqTransformInputWrapper_focus div.jqTransformInputInner { background-position: right -62px ;}
+
+
+
+.jqTransformSafari .jqTransformInputInner div {
+}
+.jqTransformSafari .jqTransformInputInner div input {
+	background-color: none;
+}
+
+
+
+/* -------------
+ * Textarea
+ * ------------- */
+table.jqTransformTextarea td#jqTransformTextarea-mm textarea {
+	line-height: 16px;
+}
+
+table.jqTransformTextarea td {
+  line-height: 1px;
+}
+table.jqTransformTextarea {}
+table.jqTransformTextarea tr {
+/*border: 1px solid red;*/
+
+}
+table.jqTransformTextarea textarea {
+	border: 0;
+	background: none;
+}
+table.jqTransformTextarea td#jqTransformTextarea-tl {background: url(../images/transform/textarea/textarea_tl.gif) no-repeat top left;}
+table.jqTransformTextarea td#jqTransformTextarea-tm {background: url(../images/transform/textarea/textarea_tm.gif) repeat-x top left;}
+table.jqTransformTextarea td#jqTransformTextarea-tr {background: url(../images/transform/textarea/textarea_tr.gif) no-repeat top left;}
+
+table.jqTransformTextarea td#jqTransformTextarea-ml {background: url(../images/transform/textarea/textarea_ml.gif) repeat-y top left;}
+table.jqTransformTextarea td#jqTransformTextarea-mm {background: url(../images/transform/textarea/textarea-mm.gif) repeat;}
+table.jqTransformTextarea td#jqTransformTextarea-mr {background: url(../images/transform/textarea/textarea_mr.gif) repeat-y top left;}
+
+table.jqTransformTextarea td#jqTransformTextarea-bl {background: url(../images/transform/textarea/textarea_bl.gif) no-repeat top left;}
+table.jqTransformTextarea td#jqTransformTextarea-bm {background: url(../images/transform/textarea/textarea_bm.gif) repeat-x top left;}
+table.jqTransformTextarea td#jqTransformTextarea-br {background: url(../images/transform/textarea/textarea_br.gif) no-repeat top left;}
+
+/*hover*/
+table.jqTransformTextarea-hover td#jqTransformTextarea-tl {background-position:0px -5px;}
+table.jqTransformTextarea-hover td#jqTransformTextarea-tm {background-position:0px -5px;}
+table.jqTransformTextarea-hover td#jqTransformTextarea-tr {background-position:0px -5px;}
+table.jqTransformTextarea-hover td#jqTransformTextarea-ml {background-position:-5px 0px;}
+table.jqTransformTextarea-hover td#jqTransformTextarea-mm {background-image: url(../images/transform/textarea/textarea-mm-hover.gif);}
+table.jqTransformTextarea-hover td#jqTransformTextarea-mr {background-position:-5px 0px;}
+table.jqTransformTextarea-hover td#jqTransformTextarea-bl {background-position:0px -5px;}
+table.jqTransformTextarea-hover td#jqTransformTextarea-bm {background-position:0px -5px;}
+table.jqTransformTextarea-hover td#jqTransformTextarea-br {background-position:0px -5px;}
+
+/*focus*/
+table.jqTransformTextarea-focus td#jqTransformTextarea-tl {background-position:0px -10px;}
+table.jqTransformTextarea-focus td#jqTransformTextarea-tm {background-position:0px -10px;}
+table.jqTransformTextarea-focus td#jqTransformTextarea-tr {background-position:0px -10px;}
+table.jqTransformTextarea-focus td#jqTransformTextarea-ml {background-position:-10px 0px;}
+table.jqTransformTextarea-focus td#jqTransformTextarea-mm {background-image: url(../images/transform/textarea/textarea-mm-focus.gif);}
+table.jqTransformTextarea-focus td#jqTransformTextarea-mr {background-position: -10px 0px;}
+table.jqTransformTextarea-focus td#jqTransformTextarea-bl {background-position:0px -10px;}
+table.jqTransformTextarea-focus td#jqTransformTextarea-bm {background-position:0px -10px;}
+table.jqTransformTextarea-focus td#jqTransformTextarea-br {background-position:0px -10px;}
+
+
+table.jqTransformTextarea .jqTransformSafariTextarea div {
+	border: 0px solid red;
+}
+table.jqTransformTextarea .jqTransformSafariTextarea textarea {
+	background: none;
+	resize: none;
+}
+
+
+/* -------------
+ * Radios
+ * ------------- */
+.jqTransformRadioWrapper {display:block;}
+.jqTransformRadio {
+	background: transparent url(../images/transform/radio.gif) no-repeat center top;
+	vertical-align: middle;
+	display:block;/*display: -moz-inline-block;*/
+}
+
+
+/* -------------
+ * Checkboxes
+ * ------------- */
+span.jqTransformCheckboxWrapper {
+	display:block;
+  
+}
+a.jqTransformCheckbox {
+	background: transparent url(../images/sprite.png) no-repeat 0 -887px;
+	vertical-align: middle;
+	display:block;/*display: -moz-inline-block;*/
+  
+}
+
+/* -------------
+ * Checked - Used for both Radio and Checkbox
+ * ------------- */
+a.jqTransformChecked { background-position: 0 -938px;}
+
+
+/* -------------
+ * Selects
+ * ------------- */
+
+.jqTransformSelectWrapper {
+  background: url(../images/forms.png) no-repeat!important;
+}
+.jqTransformSelectWrapper div {
+  vertical-align: top;
+}
+.jqTransformSelectWrapper div span {
+	line-height: 15px;
+	cursor:pointer;
+}
+
+.jqTransformSelectWrapper  a.jqTransformSelectOpen {
+	display: block;
+  background: url(../images/forms.png) no-repeat right 0!important ;
+}
+
+.jqTransformSelectWrapper ul {
+	list-style: none;
+	background-color: #FFF;
+	border: solid 1px #CCC;
+	display: none;
+	z-index:10;
+}
+
+.jqTransformSelectWrapper ul a {
+	display: block;
+	text-decoration: none;
+	color:#333;
+	background-color: #FFF;
+}
+
+.jqTransformSelectWrapper ul a.selected {
+	background: url(../images/sprite-x.png) 0 -134px repeat-x;
+	color: #7d7463;
+}
+
+.jqTransformSelectWrapper ul a:hover, .jqTransformSelectWrapper ul a.selected:hover {
+	background: url(../images/sprite-x.png) 0 -134px repeat-x;
+	color: #7d7463;
+}
+/*Select with map*/
+.request-proposal #webform-component-country {
+  background: url("../images/form_maps.png") no-repeat scroll 408px 15px transparent;
+}
+
+/* -------------
+ * Hidden - used to hide the original form elements
+ * ------------- */
+.jqTransformHidden {display: none;}
+
+
+
+
+
+/*MYGUIDE FORM CAMPAIGN PAGE*/
+.recommendation-form .jqTransformSelectWrapper{
+  clear: both;
+  width: 99.5% !important;
+}
+
+.recommendation-form {
+  border-top: 2px solid #efeeea;
+  padding: 20px 20px 20px;
+}
+.qtip .recommendation-form {
+  border-top: 0 none;
+  padding: 0;
+}
+.recommendation-form .button-wrapper{
+  display: block;
+  margin-top: 30px;
+}
+.recommendation-form .button-wrapper input{
+  width: 100%;
+}
+.recommendation-form label{
+  color: #333;
+  margin: 0 0 6px;
+}
+.recommendation-form .form-item{
+  margin: 0 0 10px;
+}
+/***********************************************
+  SUBSCRIPTION
+************************************************/
+
+.section-box-279.sextion-box-form header h1 {
+  line-height: 60px;
+  color: #37302c;
+}
+.section-box-279.sextion-box-form .field-name-body {
+  line-height: 16px;
+}
+.section-box-279.sextion-box-form form {
+}
+.section-box-279.sextion-box-form .form-item {
+  
+}
+.section-box-279.sextion-box-form .form-item label {
+  color: #7D7363;
+  display: block;
+  line-height: 16px;
+}
+.section-box-279.sextion-box-form .form-item + .form-item {
+}
+
+/***********************************************
+  Book Form
+************************************************/
+
+.book-form label {
+  line-height: 30px;
+  text-align: right;
+  
+}
+.book-form .form-text {
+}
+.book-form .grippie {
+  display: none;
+}
+.book-form textarea {
+}
+.book-form .form-actions {
+}
+
+/***********************************************
+  Corporate Form
+************************************************/
+
+.form-corporate .form-item {
+  
+}
+label,
+.form-corporate .form-item label {
+  color: #7d7263;
+  font-weight: bold;
+}
+.form-corporate .form-item .form-text {
+}
+.form-corporate .form-actions {
+}
+
+/***********************************************
+   Newsletter Form
+************************************************/
+.form-newsletter .article-content {
+}
+.form-newsletter #webform-component-first-name,
+.form-newsletter #webform-component-last-name {
+}
+.form-newsletter #webform-component-first-name {
+  
+}
+.form-newsletter #webform-component-last-name {
+  
+}
+.form-newsletter .form-type-checkbox {
+}
+.form-newsletter .form-checkboxes {
+}
+.form-checkboxes .form-item,
+.form-radios .form-item {
+}
+.webform-client-form .form-checkbox { 
+   /*position: absolute;
+    z-index: -30;
+   top: -9999px;*/
+   
+   
+   opacity: 0;
+   filter: alpha(opacity=0);
+   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.modal-content form .form-checkbox {
+  z-index: 10000;
+}
+.webform-client-form .form-type-checkbox.form-item label,
+.dummy_ckeckbox a,
+.facetapi-facetapi-checkbox-links a{
+  background: url("../images/sprite.png") no-repeat scroll 0 -887px transparent;
+  display: block;
+  cursor: pointer;
+}
+.facetapi-facetapi-checkbox-links input.facetapi-checkbox{
+  display: none;
+}
+.facetapi-facetapi-checkbox-links a{
+  background-position: 17px -884px;
+}
+.facetapi-facetapi-checkbox-links a:hover{
+  background: url("../images/sprite.png") no-repeat scroll 17px -884px #efeeea!important;
+}
+.webform-client-form .form-type-checkbox.form-item label.checked,
+.dummy_ckeckbox a.selected{ 
+  background-position: 0 -938px;
+}
+.facetapi-facetapi-checkbox-links a.facetapi-text-active,
+.facetapi-facetapi-checkbox-links a.facetapi-text-active:hover{
+  background-position: 17px -935px!important;
+}
+#content li.dummy_ckeckbox a,
+#content li.dummy_ckeckbox a.active{
+  color: #333;
+}
+.webform-container-inline div, 
+.webform-container-inline div.form-item,
+.form-type-checkbox,
+.form-checkboxes{
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+.webform-container-inline div, 
+.webform-container-inline div.form-item,
+.form-type-checkbox,
+.form-checkboxes{
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+.section-box-279 .webform-container-inline div, 
+.section-box-279 .webform-container-inline div.form-item,
+.section-box-279 .form-type-checkbox,
+.section-box-279 .form-checkboxes,
+.view-meet-danes-list .form-checkboxes{
+  display: block;
+}
+
+
+
+/*Browse input*/
+
+.file                         {}
+.file .fil 										{background:url(../images/gfx/button-submit-t2.png) no-repeat 0px 0px;}
+.file .fil:hover 								{background-position:0px -35px;}
+.file .fil:active 								{}
+.file .fil input 								{display:block;outline:0;border:0;cursor:default;filter:alpha(opacity=0);-khtml-opacity:0;-moz-opacity:0;opacity:0;}
+.file .inp 										{border:1px solid #d5d4d0;background:#fafafa;}
+.file .inp .pd 									{}
+.file .inp .pd input 							{
+  font-family:arial;
+  color:#555;
+  border:0;
+  outline:0;
+  background:transparent;
+}
+
+
+
+/*Create an offer form*/
+
+.create-an-offer .pane-title{
+}
+.create-an-offer .field-name-body {
+  border-bottom: 2px solid #efeeea;
+}
+.create-an-offer .form-item,
+.request-proposal .form-item,
+.block-content > article.article-type-webform .form-item{
+  border-bottom: 2px solid #efeeea;
+  
+}
+.create-an-offer label,
+.request-proposal label,
+.block-content > article.article-type-webform label{
+    color: #333;
+    display: inline-block;
+    vertical-align: top;
+}
+.create-an-offer input[type="text"],
+.create-an-offer textarea,
+.request-proposal input[type="text"],
+.request-proposal input[type="email"],
+.request-proposal textarea,
+.request-proposal input[type="number"]{
+}
+.create-an-offer .form-textarea-wrapper,
+.request-proposal .form-textarea-wrapper,
+.block-content > article.article-type-webform .form-textarea-wrapper{
+  display: inline-block;
+}
+.create-an-offer .webform-container-inline div.description,
+.create-an-offer .form-item .description, 
+.create-an-offer fieldset .description,
+.request-proposal .webform-container-inline div.description,
+.request-proposal .form-item .description, 
+.request-proposal fieldset .description,
+.block-content > article.article-type-webform .webform-container-inline div.description,
+.block-content > article.article-type-webform .form-item .description, 
+.block-content > article.article-type-webform fieldset .description{
+  display: inline-block;
+  vertical-align: top;
+}
+.ie7 .create-an-offer .webform-container-inline div.description,
+.ie7 .create-an-offer .form-item .description,
+.ie7 .create-an-offer fieldset .description,
+.ie7 .request-proposal .webform-container-inline div.description,
+.ie7 .request-proposal .form-item .description,
+.ie7 .request-proposal fieldset .description,
+.ie7 .block-content > article.article-type-webform .webform-container-inline div.description,
+.ie7 .block-content > article.article-type-webform .form-item .description,
+.ie7 .block-content > article.article-type-webform fieldset .description {
+  display: inline;
+	zoom: 1;
+}
+.create-an-offer .form-item#webform-component-street{
+  border-bottom: 0 none;
+}
+.create-an-offer .form-item#webform-component-street input{
+}
+.create-an-offer .form-item#webform-component-number{
+}
+.create-an-offer .form-item#webform-component-number input{
+}
+
+.create-an-offer .form-item#webform-component-postal-code{
+  
+  border-bottom: 0 none;
+}
+.create-an-offer .form-item#webform-component-postal-code input{
+}
+.create-an-offer .form-item#webform-component-city{
+}
+.create-an-offer .form-item#webform-component-city input{
+}
+.create-an-offer select:focus,
+.request-proposal select:focus,
+.block-content > article.article-type-webform select:focus{
+  outline: none;
+}
+.create-an-offer .webform-component-date,
+.request-proposal #webform-component-planned-dates-from{
+  border-bottom: 0;
+}
+.create-an-offer .webform-component-date select,
+.request-proposal #webform-component-planned-dates-from select,
+.request-proposal #webform-component-planned-dates-to select{
+  background: #efeeea;
+  color: #333;
+  border: none;
+   -webkit-appearance: none;
+}
+.create-an-offer .webform-component-date .form-type-select,
+.request-proposal #webform-component-planned-dates-from .form-type-select,
+.request-proposal #webform-component-planned-dates-to .form-type-select{
+  background: #efeeea;
+  border-radius: 4px;
+}
+.create-an-offer .webform-component-date.field-prefix,
+.request-proposal #webform-component-planned-dates-from .field-prefix,
+.request-proposal #webform-component-planned-dates-to .field-prefix{
+}
+.create-an-offer #webform-component-offer-valid-to .field-prefix,
+.request-proposal #webform-component-planned-dates-to .field-prefix{
+}
+.create-an-offer .webform-component-date .webform-datepicker,
+.request-proposal #webform-component-planned-dates-from .webform-datepicker,
+.request-proposal #webform-component-planned-dates-to .webform-datepicker{
+  display: block;
+}
+.create-an-offer .form-required,
+.request-proposal .form-required,
+.block-content > article.article-type-webform .form-required{
+  color: #333;
+}
+.form-item-submitted-offer-valid-from-day,
+.form-item-submitted-offer-valid-to-day,
+.form-item-submitted-planned-dates-from-day,
+.form-item-submitted-planned-dates-to-day,
+.form-item-submitted-publish-date-day{
+}
+.form-item-submitted-offer-valid-from-month,
+.form-item-submitted-offer-valid-to-month,
+.form-item-submitted-planned-dates-from-month,
+.form-item-submitted-planned-dates-to-month,
+.form-item-submitted-publish-date-month{
+}
+.form-item-submitted-offer-valid-from-year,
+.form-item-submitted-offer-valid-to-year,
+.form-item-submitted-planned-dates-from-year,
+.form-item-submitted-planned-dates-to-year,
+.form-item-submitted-publish-date-year{
+}
+.create-an-offer #webform-component-picture,
+#webform-component-file-description{
+}
+.create-an-offer #webform-component-picture label,
+.request-proposal #webform-component-file-description label {
+}
+#webform-component-picture1,
+#webform-component-picture2,
+#webform-component-picture3,
+#webform-component-picture4{
+}
+.create-an-offer .file .inp,
+.request-proposal .file .inp{
+}
+.create-an-offer .file .inp .pd input,
+.request-proposal .file .inp .pd input{
+}
+.create-an-offer input.webform-calendar,
+.request-proposal input.webform-calendar{
+}
+.create-an-offer .form-managed-file .button-wrapper,
+.request-proposal #webform-component-file-description .button-wrapper{
+  display: none;
+}
+#webform-component-offer-type.webform-container-inline div.form-item,
+#webform-component-languages.webform-container-inline div.form-item,
+.request-proposal #webform-component-event-type div.form-item,
+#webform-component-area div.form-item{
+  border: 0 none;
+  display: block;
+}
+#edit-submitted-offer-type label,
+#webform-component-event-type div.form-item label,
+#webform-component-area div.form-item label{
+}
+.create-an-offer .form-actions,
+.request-proposal .form-actions,
+.block-content > article.article-type-webform .form-actions{
+  text-align: right;
+}
+
+/*Date Picker*/
+.ui-datepicker {
+}
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+    top: 12px;
+}
+.ui-datepicker .ui-datepicker-header {
+    background: #262626;
+    border: 0 none;
+}
+.ui-datepicker .ui-datepicker-title {
+    line-height: 34px;
+    text-align: center;
+}
+.ui-corner-all {
+    border-radius: 0 ;
+}
+#ui-datepicker-div {
+    background: #333;
+    border: none;
+}
+.ui-widget-header {
+    color: #d2cbb5;
+    line-height: 35px;
+}
+.ui-widget-header .ui-icon {
+    background-image: url("../images/sprite.png");
+}
+.ui-icon-circle-triangle-w {
+    background-position: -1168px -774px;
+}
+.ui-icon-circle-triangle-e {
+    background-position: -1177px -704px;
+}
+.ui-state-hover{
+  background: none!important;
+  border: none!important;
+  cursor: pointer;
+}
+.ui-datepicker-calendar .ui-state-hover,
+.ui-datepicker-current-day a{
+  background: #cb1b24!important;
+  color: #fff!important;
+  border: 1px solid #cb1b24 !important;
+}
+.ui-datepicker table {
+    border-collapse: collapse;
+}
+.ui-datepicker th {
+    border: 0 none;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+.ui-datepicker tbody{
+  border: none 0;
+}
+.ui-state-default, 
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    background: none repeat scroll 0 0 #E6E6E6;
+    border: 1px solid #E6E6E6 ;
+    color: #37302c;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    line-height: 23px;
+}
+
+/*Request for proposal*/
+
+.request-proposal{
+}
+.webform-steps{
+  border-bottom: 2px solid #EFEEEA;
+}
+.webform-steps span{
+  display: inline-block;
+  color: #7d7363;
+  line-height: 22px;
+}
+.webform-steps span.active,
+.webform-steps span a{
+  color: #131313;
+}
+.request-proposal .skip-btn{
+  background: #f5ebc2;
+  border-bottom: 2px solid #EFEEEA;
+}
+.request-proposal .info-wrapper,
+.block-content > article.article-type-webform .info-wrapper{
+  line-height: 58px;
+  display: inline-block;
+  
+}
+.request-proposal .skip-btn .button-wrapper{
+  
+}
+html.js .request-proposal fieldset,
+html.js .request-proposal fieldset.collapsed,
+html.js .block-content > article.article-type-webform fieldset,
+html.js .block-content > article.article-type-webform fieldset.collapsed{
+  border-bottom: 2px solid #EFEEEA;
+}
+html.js .request-proposal fieldset fieldset,
+html.js .request-proposal fieldset.collapsed fieldset,
+html.js .block-content > article.article-type-webform fieldset fieldset,
+html.js .block-content > article.article-type-webform fieldset.collapsed fieldset{
+  border: 0;
+}
+html.js .request-proposal fieldset legend{
+}
+html.js .request-proposal fieldset .fieldset-legend,
+html.js .block-content > article.article-type-webform fieldset .fieldset-legend {
+  border: 0 none;
+  background: none;
+}
+html.js .request-proposal fieldset.collapsible > legend .fieldset-legend {
+}
+
+html.js .request-proposal fieldset.collapsible.collapsed .fieldset-legend .fieldset-title{
+  color: #7d7463;
+}
+.request-proposal fieldset legend{
+}
+.request-proposal .fieldset-wrapper .form-item,
+.block-content > article.article-type-webform .fieldset-wrapper .form-item{
+  border: none 0;
+}
+.request-proposal .fieldset-wrapper .form-checkboxes {
+}
+.request-proposal .fieldset-wrapper .form-checkboxes .form-item {
+}
+.request-proposal .fieldset-wrapper{
+}
+.request-proposal #webform-component-first-name,
+.request-proposal #webform-component-country,
+.request-proposal #webform-component-mobile-phone,
+.request-proposal #webform-component-description,
+.request-proposal #webform-component-company-address{
+  border-bottom: 0 none;
+}
+.request-proposal #webform-component-last-name,
+.request-proposal #webform-component-address1,
+.request-proposal #webform-component-address2,
+.request-proposal #webform-component-zip-code,
+.request-proposal #webform-component-telephone,
+.request-proposal #webform-component-email,
+.request-proposal #webform-component-skype-handle,
+.request-proposal #webform-component-company-telephone{
+  border: none;
+}
+.request-proposal #webform-component-job-title,
+.request-proposal #webform-component-city,
+.request-proposal #webform-component-job-title,
+.request-proposal #webform-component-website,
+.request-proposal #webform-component-send-a-copy-to-email{
+  border-top: 0 none;
+}
+#edit-submitted-send-a-copy-to-email .form-item {
+}
+#webform-component-send-a-copy-to-email label {
+}
+#webform-component-send-a-copy-to-email .form-item{
+  border-bottom: 0;
+}
+
+/*Fast track form*/
+
+.form-fast-track .pane-content{
+}
+
+.form-fast-track .file{
+}
+.form-fast-track label{
+    display: block;
+    color: #333;
+}
+.form-fast-track .form-actions {
+  text-align: center;
+}
+
+/*Fixes*/
+
+.fieldset-legend span.summary{
+  display: none;
+}
+
+
+html.js fieldset.collapsed{
+  padding-top: 0!important;
+}
+#webform-component-accommodation--hotel-category{
+  background: url("../images/stars.png") no-repeat scroll 219px top;
+}

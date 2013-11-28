@@ -1,0 +1,46 @@
+form .panel-threecol_50_25_25 { 
+  padding: 1em 1em 0;
+}
+form .panel-threecol_50_25_25  .panel-panel-wrapper,
+form .panel-threecol_50_25_25  .panel-panel { 
+  margin-bottom: 1em;
+}
+form .panel-threecol_50_25_25  .panel-panel-wrapper > .panel-panel,
+form .panel-threecol_50_25_25  .panel-panel-wrapper > .panel-panel-wrapper > .panel-panel { 
+  float: left;
+  margin: 0 1em 0 0;
+  width: 24%;
+}
+form .panel-threecol_50_25_25   .panel-panel-wrapper > .panel-col-last { 
+  margin: 0;
+}
+form .panel-threecol_50_25_25 .panel-separator {
+  margin: 0 0 1em 0;
+}
+form .panel-threecol_50_25_25  .panel-panel-wrapper.panel-col-main-content-col-wrapper  .panel-panel-wrapper  .panel-panel.panel-col-first {
+  width: 45%;
+}
+
+form .panel-threecol_50_25_25 .panel-panel-wrapper  .panel-col-main-content-2-col-wrapper {
+  width: 73.8%;
+  float: left;
+}
+form .panel-threecol_50_25_25 .panel-panel-wrapper  .panel-col-main-content-2-col-wrapper  .panel-col-main-content-2-col-wrapper-bottom {
+  clear: both;
+  padding: 1em 0 0;
+}
+form .panel-threecol_50_25_25  .panel-panel-wrapper  .panel-col-main-content-2-col-wrapper  .panel-col-main-content-2-col-wrapper-bottom  .panel-panel.panel-col-first{
+  width: 45%;
+}
+form .panel-threecol_50_25_25  .panel-panel-wrapper  .panel-col-main-content-2-col-wrapper  .panel-col-main-content-2-col-wrapper-bottom .panel-panel{
+  float: left;
+  margin: 0 1em 0 0;
+  width: 24%;
+}
+form .panel-main-content-bottom{
+  float: left;
+  clear: left;
+}
+form .panel-threecol_50_25_25 .panel-col-main-content-2-col-wrapper{
+  margin-bottom: 14px;
+}

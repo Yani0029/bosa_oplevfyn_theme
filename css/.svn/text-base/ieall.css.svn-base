@@ -1,0 +1,66 @@
+/**
+ * Adaptivetheme automates loading of IE conditional stylsheets.
+ * See themename_preprocess_html() in template.php in your sub-theme.
+ */
+ 
+#commerce-checkout-form-checkout input {
+  max-width: 232px;
+}
+
+/* IE7 */
+.ie7 .panel-col-nav .pane-switch-searches.menu .pane-title{
+  line-height: 34px;
+}
+.ie7 .panel-twocol_75_25_stacked .pane-visitdk-search-facets-visitdk-search-page-form .button-wrapper input.form-submit,
+.ie7 #content .panel-searchpage .panel-col-main-content .button-wrapper input.form-submit{
+  background: url(../images/icon-sprite.png) no-repeat 100% -262px;
+  padding: 0 26px 0 2px !important;
+}
+.ie7 .panel-twocol_75_25_stacked .pane-visitdk-search-facets-visitdk-search-page-form .button-wrapper, 
+.ie7 .panel-twocol_75_25_stacked #visitdk-search-form-and-content-box-form .button-wrapper {
+  float: left;
+}
+.ie7 .panel-twocol_75_25_stacked .pane-tellus-search .TellusProduct .ProductNumber{
+  margin: 0;
+}
+.ie7 .panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title.collapsiblock{
+  padding: 5px 15px 5px 20px;
+}
+.ie7 .panel-twocol_75_25_stacked .visitdk_search-results h3,
+.ie7 #content .panel-searchpage .visitdk_search-results h3{
+  display: inline;
+}
+.ie7 .panel-twocol_75_25_stacked .visitdk_search-results{
+  padding: 7px 0 50px;
+}
+.ie7 #content .panel-searchpage .TellusProductList .TellusProductList{
+  padding: 15px 0;
+}
+.ie7 .link-wrapper  a {
+  line-height: 36px;
+}
+.ie7 .shop .currency_select_menu li {
+  line-height: 20px;
+}
+.ie7 .button-wrapper  input {
+  line-height: 29px;
+  height: 30px;
+}
+
+/* IE8 */
+.ie8 .panel-twocol_75_25_stacked .pane-visitdk-search-facets-visitdk-search-page-form .button-wrapper input.form-submit,
+.ie8 #content .panel-searchpage .panel-col-main-content .button-wrapper input.form-submit{
+  background: url(../images/icon-sprite.png) no-repeat 100% -264px;
+  padding: 0 43px 0 8px !important;
+}
+.ie8 .panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title.collapsiblock{
+  padding: 5px 15px 5px 20px;
+}
+
+.ie8 .button-wrapper  input {
+  line-height: 29px;
+  height: 30px;
+}
+.ie8 .brochures_cat .button-wrapper input {
+  line-height: 25px;
+}

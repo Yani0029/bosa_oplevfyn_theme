@@ -1,0 +1,21 @@
+form .panel-searchpage { 
+  padding: 1em 1em 0;
+}
+form .panel-searchpage > .panel-panel-wrapper,
+form .panel-searchpage > .panel-panel { 
+  width: 100%; 
+  margin-bottom: 1em;
+}
+form .panel-searchpage > .panel-panel-wrapper > .panel-panel-wrapper > .panel-panel{ 
+  float: left;
+  margin: 0 1em 0 0;
+  width: 48%;
+}
+form .panel-searchpage .panel-separator {
+  margin: 0 0 1em 0;
+}
+form .panel-searchpage > .panel-panel-wrapper > .panel-col-top{
+  float: none;
+  width: 100%;
+  margin: 0 0 1em 0;
+}

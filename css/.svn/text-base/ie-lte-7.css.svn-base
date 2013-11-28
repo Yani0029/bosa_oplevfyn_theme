@@ -1,0 +1,15 @@
+.pane-custom-pane-nodequeues,
+.panel-col-bottom-row{
+  margin-bottom: 14px!important;
+}
+.pane-custom-pane-nodequeues .pane-content{
+  zoom: 1;
+}
+.section-box-full-width,
+#content .panel-pane.section-box-full-width {  *display: inline;
+  zoom: 1;
+}
+.view-download-block-news .views-row *{
+  display: inline;
+  zoom: 1;
+}

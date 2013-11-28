@@ -1,0 +1,25 @@
+form .panel-danskturisme { 
+  padding: 1em 1em 0;
+}
+form .panel-danskturisme > .panel-panel-wrapper,
+form .panel-danskturisme > .panel-panel { 
+  width: 100%; 
+  margin-bottom: 1em;
+}
+form .panel-danskturisme > .panel-panel-wrapper > .panel-panel,
+form .panel-danskturisme > .panel-panel-wrapper > .panel-panel-wrapper > .panel-panel{ 
+  float: left;
+  margin: 0 1em 0 0;
+  width: 48%;
+}
+form .panel-danskturisme > .panel-panel-wrapper > .panel-col-last { 
+  margin: 0;
+}
+form .panel-danskturisme .panel-separator {
+  margin: 0 0 1em 0;
+}
+form .panel-danskturisme > .panel-panel-wrapper > .panel-col-top{
+  float: none;
+  width: 100%;
+  margin: 0 0 1em 0;
+}

@@ -1,0 +1,31 @@
+form .panel-twocol_75_25_stacked { 
+  padding: 1em 1em 0;
+}
+form .panel-twocol_75_25_stacked  .panel-panel-wrapper,
+form .panel-twocol_75_25_stacked  .panel-panel { 
+  width: 100%; 
+  margin-bottom: 1em;
+}
+form .panel-twocol_75_25_stacked .panel-col-main-content-col-1 { 
+  float: left;
+  margin: 0 1em 0 0;
+  width: 72%;
+}
+form .panel-twocol_75_25_stacked .panel-col-top-left{
+  float: left;
+  width: 45%;
+}
+form .panel-twocol_75_25_stacked .panel-col-top-right{
+  float: right;
+  width: 45%;
+}
+form .panel-twocol_75_25_stacked .panel-panel-wrapper .panel-col-last { 
+  margin: 0;
+}
+form .panel-twocol_75_25_stacked > .panel-separator {
+  margin: 0 0 1em 0;
+}
+form .panel-twocol_75_25_stacked .panel-col-main-content-col-2 {
+  width: 25%;
+  float: right;
+}
