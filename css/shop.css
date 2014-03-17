@@ -197,6 +197,12 @@ tr.odd {
 }
 
 /* checkout information */
+#commerce-checkout-form-checkout fieldset#edit-bosa-attendees {
+  border: 1px solid lightgrey;
+  padding: 10px;
+  margin: 10px;
+}
+
 #commerce-checkout-form-checkout {
   padding: 30px 0;
 }
@@ -216,6 +222,14 @@ tr.odd {
 }
 #commerce-checkout-form-checkout input.form-text {
   width: 232px;
+}
+
+#commerce-checkout-form-checkout #edit-bosa-attendees input.form-text {
+  width: 211px;
+}
+
+#commerce-checkout-form-checkout #edit-bosa-attendees input[id*='age'] {
+  width: 50px;
 }
 #commerce-checkout-form-checkout input.postal-code {
   width: 62px;
