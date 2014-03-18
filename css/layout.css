@@ -9936,10 +9936,10 @@ margin: 0;
   bottom: -4px;
 }
 
-.not-front .product .views-field.views-field-view-node {
+.product .views-field.views-field-view-node {
   top: 79%;
 }
-.not-front .product .views-field-view-node {
+.product .views-field-view-node {
   position: absolute;
   bottom: 15px;
   right: 15px;
