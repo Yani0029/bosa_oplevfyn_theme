@@ -67,25 +67,25 @@
 .cart-empty-block {
   padding: 0 17px 12px 20px;
 }
-.view-commerce-cart-block {
+.view-bosa-shopping-cart-block {
   border-top: 2px solid #efeeea;
 }
-.view-commerce-cart-block table {
+.view-bosa-shopping-cart-block table {
   margin: 0 0 7px;
 }
-.view-commerce-cart-block thead {
+.view-bosa-shopping-cart-block thead {
   display: none;
 }
 tr.odd {
   background: #fff;
 }
-.view-commerce-cart-block td {
+.view-bosa-shopping-cart-block td {
   padding: 8px 0 14px; 
   font-weight: bold;
   line-height: 17px;
   border-bottom: 1px solid #efeeea;
 }
-.view-commerce-cart-block .views-field-line-item-title a,
+.view-bosa-shopping-cart-block .views-field-line-item-title a,
 .view-commerce-cart-form  .views-field-line-item-title a {
   color: #333;
 }
@@ -106,27 +106,27 @@ tr.odd {
 }
 
 
-.view-commerce-cart-block .views-field-quantity {
+.view-bosa-shopping-cart-block .views-field-quantity {
   color: #7d7463; 
   padding-left: 15px; 
 }
-.view-commerce-cart-block .views-field-commerce-total {
+.view-bosa-shopping-cart-block .views-field-commerce-total {
   padding-right: 12px;
 }
-.view-commerce-cart-block .line-item-total {
+.view-bosa-shopping-cart-block .line-item-total {
   border-bottom: 1px solid #efeeea;
   padding: 0 12px 9px;
   color: #800008;
 }
-.view-commerce-cart-block .line-item-quantity {
+.view-bosa-shopping-cart-block .line-item-quantity {
   padding: 0 0 0 15px;
   color: #800008;
 }
-.view-commerce-cart-block .links.inline {
+.view-bosa-shopping-cart-block .links.inline {
   display: inline-block;
   margin: 1.071em 0.857em 0 0;
 }
-.view-commerce-cart-block .links li {
+.view-bosa-shopping-cart-block .links li {
   border: 2px solid #E6E4DB;
   border-radius: 5px 5px 5px 5px;
   display: inline-block;
@@ -135,7 +135,7 @@ tr.odd {
   background: none repeat scroll 0 0 #B80719;
   float: right;
 }
-.view-commerce-cart-block .links li a {
+.view-bosa-shopping-cart-block .links li a {
   border: 0 none;
   color: #FFFFFF!important;
   cursor: pointer;
@@ -150,6 +150,9 @@ tr.odd {
   background: none repeat scroll 0 0 #B80719;
 }
 
+.view-id-bosa_shopping_cart_form .commerce-line-item-actions {
+  display:none;
+}
 
 /* shopping cart */
 .shop.section-box-865 {

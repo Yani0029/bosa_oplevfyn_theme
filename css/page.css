@@ -1948,7 +1948,17 @@ form#panels-edit-display-form .panel-col-background{
 
 
 .as3grid .views-row { float: left; width: 31.6%; height: 254px;}
+.as3grid .views-row-4,
+.as3grid .views-row-7,
+.as3grid .views-row-10,
+.as3grid .views-row-13,
+.as3grid .views-row-16 {
+  clear: left;
+}
 
+.panel-pane.pane-views.pane-kategorivisning {
+  margin-bottom: 14px;
+}
 .views-field.views-field-field-offer-url {
   width: 252px;
   overflow: hidden;

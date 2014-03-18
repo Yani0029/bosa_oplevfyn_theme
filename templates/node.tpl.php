@@ -8,7 +8,7 @@
       <?php if ($title): ?>
         <h1<?php print $title_attributes; ?>>
           <span class="title">
-            <a href="<?php print $node_url; ?>" rel="bookmark"><?php print $title; ?></a>
+            <?php print $title; ?>
           </span>
           <span class="align-span"></span>
         </h1>

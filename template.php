@@ -699,7 +699,7 @@ function visit_pager($variables) {
     }
     
     
-    return '<h2 class="element-invisible">' . t('Pages') . '</h2>' . theme('item_list', array(
+    return theme('item_list', array(
       'items' => $items,
       'attributes' => array('class' => array('pager')),
     ));
@@ -759,9 +759,9 @@ function visit_pager__term_page_list($variables) {
     if (arg(0) == 'taxonomy' && arg(1) == 'term' && is_numeric(arg(2))) {
       $term = taxonomy_term_load(arg(2));
     }
-    $term_name = isset($term->name) ? $term->name : t('unknown');
-    return '<h2 class="element-invisible">' . t('Pages') . '</h2>' .
-      '<div class="text-result-wrapper">' . t('Showing @count from @max marked with "%term"', array('@count' => $viewed_items, '@max' => $total_items, '%term' => $term_name)) .'</div>';
+    //$term_name = isset($term->name) ? $term->name : t('unknown');
+    //return '<h2 class="element-invisible">' . t('Pages') . '</h2>' .
+      //'<div class="text-result-wrapper">' . t('Showing @count from @max marked with "%term"', array('@count' => $viewed_items, '@max' => $total_items, '%term' => $term_name)) .'</div>';
   }
 }
 

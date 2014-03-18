@@ -37,7 +37,7 @@ with any questions regarding Web Fonts:  http://webfonts.fonts.com
 		url("../fonts/744d440a-5776-4a56-9fc8-b0360aff88c2.ttf") format("truetype"),
 		url("../fonts/d8574ab0-5f93-48f0-b4be-d526f26b1921.svg#d8574ab0-5f93-48f0-b4be-d526f26b1921") format("svg");
 }
-  
+
 @font-face {
   font-family: "Soho Gothic Regular";
   src: url("../fonts/171d4b24-9bda-4680-9317-2889552527e1.eot");
@@ -46,7 +46,7 @@ with any questions regarding Web Fonts:  http://webfonts.fonts.com
 		url("../fonts/744d440a-5776-4a56-9fc8-b0360aff88c2.ttf") format("truetype"),
 		url("../fonts/d8574ab0-5f93-48f0-b4be-d526f26b1921.svg#d8574ab0-5f93-48f0-b4be-d526f26b1921") format("svg");
 }
-  
+
 @font-face {
   font-family: "Soho W02 Bold";
   src: url("../fonts/9d479707-a05d-4a33-b778-6a20e68402fd.eot");
@@ -174,7 +174,7 @@ h1,
 .section-box-250-470-first .block_title .title,
 .section-box-250-470-first h2.pane-title .title,
 .pane-node-body h5{
-  font-size: 23px;  
+  font-size: 23px;
 }
 
 
@@ -228,7 +228,7 @@ h2,
 #content .panel-twocol_25_75_stacked .pane-tellus-search .TellusProduct h2,
 .article .panel-pane.pane-node-field-right-blocks .field-name-field-right-blocks > .field-items > .field-item h1,
 .modal-content #my-guide-save-guide .form-item label,
-#search-panel.panel-threecol252550 .pane-custom.panel-pane[class*="section-box-279"] .pane-title, 
+#search-panel.panel-threecol252550 .pane-custom.panel-pane[class*="section-box-279"] .pane-title,
 .panel-twocol_50_50 .panel-pane[class*="pane-facetapi"] .pane-title,
 .pane-tellus-search .TellusNoOfHits h3,
 .panel-threecol252550 .section-box-572 .search-results-header-wrapper h2,
@@ -318,7 +318,7 @@ h4 ,
 
 /*_____14px_____*/
 #danes-chef .related-tags .pane-title,
-#search-panel.panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title, 
+#search-panel.panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title,
 .panel-twocol_50_50 .panel-pane[class*="pane-facetapi"] li span,
 html.js .views-exposed-form fieldset.collapsible .fieldset-legend,
 .collapsibleList > li > .collapse-arrow,
@@ -355,7 +355,7 @@ a.bullet,
 .panel-col-main-content-custom .pane-freetext-search.section-box-279 .title,
 .brochures_cat,
 #commerce-checkout-form-checkout label ,
-.view-commerce-cart-block .links li a,
+.view-bosa-shopping-cart-block .links li a,
 .brochures_cat a,
 .shop .views-field-edit-delete input,
 .brochures_cat .views-field-title,
@@ -363,7 +363,7 @@ a.bullet,
 .pane-offer-carousel .pane-content .views-field-body blockquote,
 .sharebox-t1 ul li .drop .bg .px ul li a,
 .pane-my-guide-name h1 input,
-.pane-my-guide-name h1 a, 
+.pane-my-guide-name h1 a,
 .shop h6 {
   font-size:14px;
 }
@@ -476,10 +476,10 @@ div.error,
 .element-add-button .page-added-to-my-guide a,
 .add-my-guide,
 .create-an-offer .webform-container-inline div.description,
-.create-an-offer .form-item .description, 
+.create-an-offer .form-item .description,
 .create-an-offer fieldset .description,
 .request-proposal .webform-container-inline div.description,
-.request-proposal .form-item .description, 
+.request-proposal .form-item .description,
 .request-proposal fieldset .description,
 .form-corporate,
 .form-newsletter,
@@ -537,14 +537,14 @@ table.jqTransformTextarea td#jqTransformTextarea-mm textarea ,
 .panel-twocol_25_75_stacked .pane-tellus-search .TellusProduct .node-date,
 .panel-twocol_25_75_stacked .search-result-wrapper .search-wrap,
 .panel-twocol_25_75_stacked .pane-tellus-search .TellusProduct .TellusCategoryList a,
-.view-commerce-cart-block .line-item-total,
-.view-commerce-cart-block .line-item-quantity ,
+.view-bosa-shopping-cart-block .line-item-total,
+.view-bosa-shopping-cart-block .line-item-quantity ,
 #activities .view-content .views-field-body,
 #single-offer .views-field-field-offer-valid,
 .panel-danskturisme .panel-col-content-bottom-wrapper .block_teaser,
 #activities .pane-content,
 .cart-empty-block,
-.view-commerce-cart-block td,
+.view-bosa-shopping-cart-block td,
 .ProductListTitleLatest  ul li a .ProductDate,
 #content #visitdk-regions-list .regions-list ul a,
 .ajax-progress {
@@ -621,10 +621,10 @@ table.jqTransformTextarea td {
 /*_____EMS_____*/
 address,
 th,
-table, 
-td, 
-select, 
-input, 
+table,
+td,
+select,
+input,
 textarea {
   font-size:1em;
 }
@@ -675,10 +675,10 @@ address {
 .article .panel-pane.pane-node-field-right-blocks .field-name-field-right-blocks > .field-items > .field-item .article-content,
 .add-my-guide,
 .create-an-offer .webform-container-inline div.description,
-.create-an-offer .form-item .description, 
+.create-an-offer .form-item .description,
 .create-an-offer fieldset .description,
 .request-proposal .webform-container-inline div.description,
-.request-proposal .form-item .description, 
+.request-proposal .form-item .description,
 .request-proposal fieldset .description,
 .description,
 body #cboxContent,
@@ -751,7 +751,7 @@ body,
 #content .facetapi-facetapi-links li a,
 #content .facetapi-facetapi-checkbox-links li a,
 #content .panel-searchpage .visitdk_search-results .search-snippet,
-.panel-threecol252550 .panel-col-main-content-col-2 .panel-pane[class*="section-box-279"].collapsiblock-processed .pane-title, 
+.panel-threecol252550 .panel-col-main-content-col-2 .panel-pane[class*="section-box-279"].collapsiblock-processed .pane-title,
 .shop .currency_select_menu,
 .panel-threecol252550 .section-box-572.pane-tellus-search .TellusProductList .TellusProduct .internal-node .node-body,
 .panel-twocol_25_75_stacked .panel-col-main-content-col-1 .panel-pane[class*="pane-facetapi"] h2 .title,
@@ -761,14 +761,14 @@ body,
 .brochures_cat .views-field-title,
 #danes-chef .pane-entity-field .pane-title,
 #danes-chef .quote,
-#danes-chef .field-collection-container, 
+#danes-chef .field-collection-container,
 #danes-chef .field-collection-view,
 #danes-chef .field-name-field-block-title ,
 
 #danes-chef .related-tags li,
 #danes-chef .field-type-text-with-summary p,
 .ProductListTitleLatest  ul li a .ProductDate,
-#danes-chef .field-name-field-block-title h2, 
+#danes-chef .field-name-field-block-title h2,
 .panel-col-custom-bottom-blocks li a,
 body #cboxContent .button-wrapper {
   /*font-family: "Soho Gothic Regular", "Cambria W02 Regular", serif;*/
@@ -777,11 +777,11 @@ body #cboxContent .button-wrapper {
 
 #page > footer,
 #page > header,
-.shop h6, 
+.shop h6,
 .shop .view-header p,
 .shop .views-row .views-label,
 .shop .fieldset-legend,
-.panel-col-nav .menu .pane-title, 
+.panel-col-nav .menu .pane-title,
 #page-title,
 .section-title h2,
 .section-box-279.section-title h2,
@@ -795,6 +795,7 @@ textarea,
 #danes-chef .pane-node-field-profession .title ,
 #danes-chef .pane-node-field-website .title ,
 #danes-chef .related-tags .title ,
+.view-display-id-category_list_menu a ,
 #employee_single.panel-threecol_50_25_25 .panel-pane,
 .ui-slider .ttContent{
   font-family: 'Soho Gothic', 'Cambria W02 Regular', 'Cambria W10 Regular', sans-serif;
@@ -804,9 +805,9 @@ textarea,
 .container #employee_single.panel-threecol_50_25_25 .panel-col-main-content-col-1 .field-name-field-job-title,
 #danes-chef .view-related-meet-danes .views-field-title a ,
 .collapsibleList + a,
-.panel-threecol252550 .pane-custom.panel-pane[class*="section-box-279"] .pane-title, 
+.panel-threecol252550 .pane-custom.panel-pane[class*="section-box-279"] .pane-title,
 .panel-twocol_50_50 .panel-pane[class*="pane-facetapi"] .pane-title ,
-.panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title, 
+.panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title,
 #content .panel-twocol_50_50 .panel-pane[class*="pane-facetapi"] li span,
 #content .panel-twocol_50_50 .panel-pane[class*="pane-facetapi"] li span.active-link,
  #content .panel-twocol_50_50 #facetapi-facet-apachesolrsolr-block-im-field-office-type li.leaf .active-link a,
@@ -927,80 +928,80 @@ _______FONTS RUSSIAN_____
 *************************/
 
 
-/*_____35px_____*/ 
- .i18n-ru .pane-offer-carousel .views-field-field-offer-price, 
- .i18n-ru #offers .view-offers-list .views-row-first .views-field-field-offer-price, 
+/*_____35px_____*/
+ .i18n-ru .pane-offer-carousel .views-field-field-offer-price,
+ .i18n-ru #offers .view-offers-list .views-row-first .views-field-field-offer-price,
  .i18n-ru #single-offer .views-field-field-offer-price{
   font-size: 37px;
 }
 
 
-/*_____30px_____*/ 
- .i18n-ru .overlay-t1 .auto .hd .lft .pd p, 
- .i18n-ru .slider-t1 .top_left .bx p, 
- .i18n-ru .slider-t1 .top_right .bx p, 
- .i18n-ru .slider-t1 .bottom_left .bx p, 
- .i18n-ru .block_number, 
- .i18n-ru .block_number a, 
- .i18n-ru .block_number p, 
- .i18n-ru .slider-t1 .bottom_right .bx p , 
- .i18n-ru h1, 
- .i18n-ru .container .panel-twocol_50_50_stacked > .panel-panel-wrapper > .panel-panel .panel-pane:first-child h2, 
- .i18n-ru .container .panel-tema-layout .panel-panel.panel-col-top-left h2, 
- .i18n-ru .container .panel-twocol_75_25_stacked   > .panel-panel-wrapper > .panel-panel.panel-col-top-left h2, 
- .i18n-ru #single-offer .pane-node-content h2 .title, 
- .i18n-ru .pane-node-title, 
- .i18n-ru .ProductBodyContent .ProductName, 
- .i18n-ru .container .panel-tema-layout > .panel-panel-wrapper > .inside > .panel-panel-wrapper > .inside > .panel-col-main-content-col-1 .pane-node-title, 
+/*_____30px_____*/
+ .i18n-ru .overlay-t1 .auto .hd .lft .pd p,
+ .i18n-ru .slider-t1 .top_left .bx p,
+ .i18n-ru .slider-t1 .top_right .bx p,
+ .i18n-ru .slider-t1 .bottom_left .bx p,
+ .i18n-ru .block_number,
+ .i18n-ru .block_number a,
+ .i18n-ru .block_number p,
+ .i18n-ru .slider-t1 .bottom_right .bx p ,
+ .i18n-ru h1,
+ .i18n-ru .container .panel-twocol_50_50_stacked > .panel-panel-wrapper > .panel-panel .panel-pane:first-child h2,
+ .i18n-ru .container .panel-tema-layout .panel-panel.panel-col-top-left h2,
+ .i18n-ru .container .panel-twocol_75_25_stacked   > .panel-panel-wrapper > .panel-panel.panel-col-top-left h2,
+ .i18n-ru #single-offer .pane-node-content h2 .title,
+ .i18n-ru .pane-node-title,
+ .i18n-ru .ProductBodyContent .ProductName,
+ .i18n-ru .container .panel-tema-layout > .panel-panel-wrapper > .inside > .panel-panel-wrapper > .inside > .panel-col-main-content-col-1 .pane-node-title,
  .i18n-ru .container .panel-threecol_50_25_25 > .panel-panel-wrapper > .inside > .panel-panel-wrapper > .inside > .panel-col-main-content-col-1 .pane-node-title,
  .i18n-ru #cboxContent h2 {
   font-size: 32px;
 }
 
 
-/*_____26px_____*/ 
- .i18n-ru .pane-node-body h2, 
+/*_____26px_____*/
+ .i18n-ru .pane-node-body h2,
  .i18n-ru #brochure-text .pane-title{
   font-size: 28px;
 }
 
 
-/*_____24px_____*/ 
- .i18n-ru .section-box-572 h2, 
- .i18n-ru .section-box-572-470 h2, 
- .i18n-ru .pane-offer-carousel h2 .title, 
+/*_____24px_____*/
+ .i18n-ru .section-box-572 h2,
+ .i18n-ru .section-box-572-470 h2,
+ .i18n-ru .pane-offer-carousel h2 .title,
  .i18n-ru .offer-block h2 .title,
- .i18n-ru #employee_single .field-name-field-recommended > .field-items > .field-item:first-child h2, 
+ .i18n-ru #employee_single .field-name-field-recommended > .field-items > .field-item:first-child h2,
  .i18n-ru #search-panel.panel-threecol252550 > .panel-panel-wrapper.panel-col-main-content-col-wrapper > .panel-panel.panel-col-last.no-second-row .article-search-dashboard h1{
   font-size: 26px;
 }
 
 
-/*_____23px_____*/ 
- .i18n-ru .section-box-250-470-first .block_title .title, 
- .i18n-ru .section-box-250-470-first h2.pane-title .title, 
+/*_____23px_____*/
+ .i18n-ru .section-box-250-470-first .block_title .title,
+ .i18n-ru .section-box-250-470-first h2.pane-title .title,
  .i18n-ru .pane-node-body h5{
-  font-size: 25px;  
+  font-size: 25px;
 }
 
 
-/*_____22px_____*/ 
+/*_____22px_____*/
  .i18n-ru #offers .view-offers-list .views-row-first.panel-pane[class*="section-box-279"] h2 .title{
   font-size: 24px;
 }
 
 
-/*_____20px_____*/ 
- .i18n-ru .section-box-279.sextion-box-form header h1, 
- .i18n-ru .section-box-425 h2, 
- .i18n-ru .section-box-425-328 h2, 
- .i18n-ru .section-box-425-280 h2, 
- .i18n-ru .section-box-206 h2, 
- .i18n-ru .section-box-206-280 h2, 
- .i18n-ru .pane-offer-carousel .views-field-title a, 
- .i18n-ru .pane-offer-carousel .views-field-view-node a, 
- .i18n-ru .pane-offer-carousel .views-field-view-node a:hover, 
- .i18n-ru .pane-visitdk-topten-references .node-title h2, 
+/*_____20px_____*/
+ .i18n-ru .section-box-279.sextion-box-form header h1,
+ .i18n-ru .section-box-425 h2,
+ .i18n-ru .section-box-425-328 h2,
+ .i18n-ru .section-box-425-280 h2,
+ .i18n-ru .section-box-206 h2,
+ .i18n-ru .section-box-206-280 h2,
+ .i18n-ru .pane-offer-carousel .views-field-title a,
+ .i18n-ru .pane-offer-carousel .views-field-view-node a,
+ .i18n-ru .pane-offer-carousel .views-field-view-node a:hover,
+ .i18n-ru .pane-visitdk-topten-references .node-title h2,
  .i18n-ru .offer-block .block_teaser h2,
  .i18n-ru .offer-block .block_teaser p a,
  .i18n-ru #employees_list .section-box-279-300 .views-field-title{
@@ -1008,102 +1009,102 @@ _______FONTS RUSSIAN_____
 }
 
 
-/*_____18px_____*/ 
- .i18n-ru .panel-pane[class*="section-box-279"] h2 .title, 
- .i18n-ru .pane-tellus-cusom-blocks .pane-content > div h2 .title, 
- .i18n-ru .section-box-572-160 h1 .title, 
- .i18n-ru .section-box-572-160 h2 .title, 
- .i18n-ru .form-newsletter h1 .title, 
- .i18n-ru .view-filter-galleries .section-box-279 .views-field-title a, 
- .i18n-ru .ProductBodyContent .ProductScheduleList th, 
- .i18n-ru .ProductBodyContent .ProductPriceCategoryList th, 
- .i18n-ru .mwr-t4 .hd p, 
- .i18n-ru .panel-col-content-bottom-wrapper h2, 
- .i18n-ru .panel-threecol_25_50_25_sep .panel-panel.panel-col .pane-title, 
- .i18n-ru .panel-threecol_25_50_25_sep .panel-panel.panel-col-first .pane-title, 
- .i18n-ru .view-encyclopedia-listing .view-header p, 
- .i18n-ru .view-encyclopedia-listing .views-field-title a, 
- .i18n-ru .panel-pane[class*="pane-meet-danes-list"] .pane-title, 
- .i18n-ru .explore-t1 .hd p, 
- .i18n-ru h2, 
+/*_____18px_____*/
+ .i18n-ru .panel-pane[class*="section-box-279"] h2 .title,
+ .i18n-ru .pane-tellus-cusom-blocks .pane-content > div h2 .title,
+ .i18n-ru .section-box-572-160 h1 .title,
+ .i18n-ru .section-box-572-160 h2 .title,
+ .i18n-ru .form-newsletter h1 .title,
+ .i18n-ru .view-filter-galleries .section-box-279 .views-field-title a,
+ .i18n-ru .ProductBodyContent .ProductScheduleList th,
+ .i18n-ru .ProductBodyContent .ProductPriceCategoryList th,
+ .i18n-ru .mwr-t4 .hd p,
+ .i18n-ru .panel-col-content-bottom-wrapper h2,
+ .i18n-ru .panel-threecol_25_50_25_sep .panel-panel.panel-col .pane-title,
+ .i18n-ru .panel-threecol_25_50_25_sep .panel-panel.panel-col-first .pane-title,
+ .i18n-ru .view-encyclopedia-listing .view-header p,
+ .i18n-ru .view-encyclopedia-listing .views-field-title a,
+ .i18n-ru .panel-pane[class*="pane-meet-danes-list"] .pane-title,
+ .i18n-ru .explore-t1 .hd p,
+ .i18n-ru h2,
  .i18n-ru #content .panel-twocol_25_75_stacked .visitdk-search-search-result h3,
  .i18n-ru #content.panel-twocol_25_75_stacked .pane-tellus-search .TellusProduct .node-date,
  .i18n-ru .panel-twocol_25_75_stacked .pane-tellus-search .TellusProduct h2,
  .i18n-ru .article .panel-pane.pane-node-field-right-blocks .field-name-field-right-blocks > .field-items > .field-item h1,
- .i18n-ru #search-panel.panel-threecol252550 .pane-custom.panel-pane[class*="section-box-279"] .pane-title, 
-.panel-twocol_50_50 .panel-pane[class*="pane-facetapi"] .pane-title, 
- .i18n-ru .pane-tellus-search .TellusNoOfHits h3, 
- .i18n-ru .panel-threecol252550 .section-box-572 .search-results-header-wrapper h2, 
- .i18n-ru .webform-steps span, 
- .i18n-ru .section-box-279-300 h2 .title , 
- .i18n-ru .pane-node-body h3, 
- .i18n-ru .columns-t2 .hd p, 
- .i18n-ru .pane-node-title, 
- .i18n-ru .brochures_cat> h3 a, 
- .i18n-ru .ProductInfoSidebar h3, 
- .i18n-ru .ProductRightSidebar h3, 
- .i18n-ru .pane-node-body h2.pane-title, 
- .i18n-ru .ProductOtherContactList th, 
- .i18n-ru .create-an-offer .pane-title, 
- .i18n-ru .container #employee_single.panel-threecol_50_25_25 .panel-col-main-content-col-1 .field-name-field-job-title, 
- .i18n-ru #employee_single .field-name-field-recommended > .field-items > .field-item:first-child ~ .field-item h2 .title, 
+ .i18n-ru #search-panel.panel-threecol252550 .pane-custom.panel-pane[class*="section-box-279"] .pane-title,
+.panel-twocol_50_50 .panel-pane[class*="pane-facetapi"] .pane-title,
+ .i18n-ru .pane-tellus-search .TellusNoOfHits h3,
+ .i18n-ru .panel-threecol252550 .section-box-572 .search-results-header-wrapper h2,
+ .i18n-ru .webform-steps span,
+ .i18n-ru .section-box-279-300 h2 .title ,
+ .i18n-ru .pane-node-body h3,
+ .i18n-ru .columns-t2 .hd p,
+ .i18n-ru .pane-node-title,
+ .i18n-ru .brochures_cat> h3 a,
+ .i18n-ru .ProductInfoSidebar h3,
+ .i18n-ru .ProductRightSidebar h3,
+ .i18n-ru .pane-node-body h2.pane-title,
+ .i18n-ru .ProductOtherContactList th,
+ .i18n-ru .create-an-offer .pane-title,
+ .i18n-ru .container #employee_single.panel-threecol_50_25_25 .panel-col-main-content-col-1 .field-name-field-job-title,
+ .i18n-ru #employee_single .field-name-field-recommended > .field-items > .field-item:first-child ~ .field-item h2 .title,
  .i18n-ru .panel-danskturisme .panel-col-content-bottom-wrapper h2,
- .i18n-ru .checkout-review .pane-title , 
- .i18n-ru #edit-cart-contents .fieldset-legend , 
+ .i18n-ru .checkout-review .pane-title ,
+ .i18n-ru #edit-cart-contents .fieldset-legend ,
  .i18n-ru #edit-commerce-payment .fieldset-legend,
  .i18n-ru #danes-chef .view-related-meet-danes .views-field-title a{
   font-size: 20px;
 }
 
 
-/*_____17px_____*/ 
- .i18n-ru .browse-t1 .lft p, 
- .i18n-ru .browse-t1 .rgt ul li a, 
- .i18n-ru .contact-info .hd p, 
- .i18n-ru .panel-threecol252550 .section-box-572.pane-tellus-search .TellusProductList .TellusProduct .internal-node .node-title h2, 
+/*_____17px_____*/
+ .i18n-ru .browse-t1 .lft p,
+ .i18n-ru .browse-t1 .rgt ul li a,
+ .i18n-ru .contact-info .hd p,
+ .i18n-ru .panel-threecol252550 .section-box-572.pane-tellus-search .TellusProductList .TellusProduct .internal-node .node-title h2,
  .i18n-ru .panel-threecol252550 .section-box-572 .search-results li .title{
   font-size: 19px;
 }
 
 
-/*_____16px_____*/ 
- .i18n-ru .overlay-t1 .auto .wra .label .pd p , 
- .i18n-ru h3, 
- .i18n-ru .view-encyclopedia-listing .views-field-title a, 
- .i18n-ru .panel-twocol_75_25_stacked .pane-tellus-search .TellusProduct .ProductNumber, 
- .i18n-ru .panel-twocol_75_25_stacked .result-number, 
- .i18n-ru #content .panel-searchpage .result-number, 
- .i18n-ru #content .panel-searchpage .ProductNumber, 
- .i18n-ru .panel-twocol_75_25_stacked .pane-tellus-search .TellusProduct .node-title h2, 
- .i18n-ru .panel-twocol_75_25_stacked .visitdk_search-results h3, 
- .i18n-ru #activities h2, 
- .i18n-ru .cart-menu , 
- .i18n-ru #content .panel-searchpage .panel-col-main-content-2-col-wrapper .panel-col-main-content-col-1 div.pane-visitdk-search-results-pane h2,.shop .line-item-summary , 
- .i18n-ru #content .panel-searchpage .panel-col-main-content-2-col-wrapper .panel-col-main-content-col-2 div.pane-tellus-search .TellusTotalProducts h3, 
- .i18n-ru #content .panel-searchpage .node-title h2 a, 
- .i18n-ru #content .panel-searchpage .visitdk_search-results h3 a, 
+/*_____16px_____*/
+ .i18n-ru .overlay-t1 .auto .wra .label .pd p ,
+ .i18n-ru h3,
+ .i18n-ru .view-encyclopedia-listing .views-field-title a,
+ .i18n-ru .panel-twocol_75_25_stacked .pane-tellus-search .TellusProduct .ProductNumber,
+ .i18n-ru .panel-twocol_75_25_stacked .result-number,
+ .i18n-ru #content .panel-searchpage .result-number,
+ .i18n-ru #content .panel-searchpage .ProductNumber,
+ .i18n-ru .panel-twocol_75_25_stacked .pane-tellus-search .TellusProduct .node-title h2,
+ .i18n-ru .panel-twocol_75_25_stacked .visitdk_search-results h3,
+ .i18n-ru #activities h2,
+ .i18n-ru .cart-menu ,
+ .i18n-ru #content .panel-searchpage .panel-col-main-content-2-col-wrapper .panel-col-main-content-col-1 div.pane-visitdk-search-results-pane h2,.shop .line-item-summary ,
+ .i18n-ru #content .panel-searchpage .panel-col-main-content-2-col-wrapper .panel-col-main-content-col-2 div.pane-tellus-search .TellusTotalProducts h3,
+ .i18n-ru #content .panel-searchpage .node-title h2 a,
+ .i18n-ru #content .panel-searchpage .visitdk_search-results h3 a,
  .i18n-ru #activities .view-content .views-field-title{
   font-size: 18px;
 }
 
 
-/*_____15px_____*/ 
- .i18n-ru .section-box-250-470-first .block_teaser, 
- .i18n-ru .panel-pane.section-box-250-470-first, 
- .i18n-ru #tooltip .body, 
- .i18n-ru .pane-node-body p, 
- .i18n-ru .ProductBodyContent .ProductTextList p, 
- .i18n-ru .section-box-1158-130 .pane-title .title, 
- .i18n-ru .view-id-employees .list ul li strong, 
- .i18n-ru .container .panel-tema-layout .panel-panel.panel-col-top-left, 
- .i18n-ru .container .panel-twocol_75_25_stacked   > .panel-panel-wrapper > .panel-panel.panel-col-top-left , 
- .i18n-ru h4 , 
- .i18n-ru #meetadane .block_teaser, 
- .i18n-ru .article  .field-name-body, 
- .i18n-ru #single-offer .field-name-field-offer-phones, 
- .i18n-ru .panel-twocol_65_35 .field-name-body , 
- .i18n-ru #single-offer .views-field-field-offer-you-get, 
- .i18n-ru .container .panel-tema-layout > .panel-panel-wrapper > .inside > .panel-col-top-left .pane-node-title .pane-title, 
+/*_____15px_____*/
+ .i18n-ru .section-box-250-470-first .block_teaser,
+ .i18n-ru .panel-pane.section-box-250-470-first,
+ .i18n-ru #tooltip .body,
+ .i18n-ru .pane-node-body p,
+ .i18n-ru .ProductBodyContent .ProductTextList p,
+ .i18n-ru .section-box-1158-130 .pane-title .title,
+ .i18n-ru .view-id-employees .list ul li strong,
+ .i18n-ru .container .panel-tema-layout .panel-panel.panel-col-top-left,
+ .i18n-ru .container .panel-twocol_75_25_stacked   > .panel-panel-wrapper > .panel-panel.panel-col-top-left ,
+ .i18n-ru h4 ,
+ .i18n-ru #meetadane .block_teaser,
+ .i18n-ru .article  .field-name-body,
+ .i18n-ru #single-offer .field-name-field-offer-phones,
+ .i18n-ru .panel-twocol_65_35 .field-name-body ,
+ .i18n-ru #single-offer .views-field-field-offer-you-get,
+ .i18n-ru .container .panel-tema-layout > .panel-panel-wrapper > .inside > .panel-col-top-left .pane-node-title .pane-title,
  .i18n-ru .container #employee_single.panel-threecol_50_25_25 .panel-col-main-content-col-1 .pane-node-field-teaser-information,
  .i18n-ru .container #employee_single.panel-threecol_50_25_25 .panel-col-main-content-col-1 .view-employees-references,
  .i18n-ru  #danes-chef .pane-entity-field .pane-title,
@@ -1115,51 +1116,51 @@ _______FONTS RUSSIAN_____
 }
 
 
-/*_____14px_____*/ 
- .i18n-ru #danes-chef .related-tags .pane-title, 
- .i18n-ru #search-panel.panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title, 
- .i18n-ru .panel-twocol_50_50 .panel-pane[class*="pane-facetapi"] li span, 
- .i18n-ru html.js .views-exposed-form fieldset.collapsible .fieldset-legend, 
- .i18n-ru .collapsibleList > li > .collapse-arrow, 
- .i18n-ru .view-meet-danes-list #edit-tid-all, 
- .i18n-ru .collapsibleList + a, 
- .i18n-ru .panel-threecol252550 .panel-pane[class*="section-box-279"].collapsiblock-processed h2 .title , 
- .i18n-ru .slider-t1 .navi .label ul li a, 
- .i18n-ru .menu-red-arrows ul li, 
- .i18n-ru .panel-col-content-bottom-left .field-name-body ul li, 
- .i18n-ru .section-box-572-160 .link a, 
- .i18n-ru .menu-red-arrows .block_teaser p, 
- .i18n-ru .menu-red-arrows p, 
- .i18n-ru html, 
- .i18n-ru body, 
- .i18n-ru .sharebox-t2 .lft .pd ul li a, 
- .i18n-ru h5, 
- .i18n-ru #content #visitdk-regions-list .regions-list a, 
- .i18n-ru .mwr-t10 .bdy ul li a , 
- .i18n-ru a.bullet, 
+/*_____14px_____*/
+ .i18n-ru #danes-chef .related-tags .pane-title,
+ .i18n-ru #search-panel.panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title,
+ .i18n-ru .panel-twocol_50_50 .panel-pane[class*="pane-facetapi"] li span,
+ .i18n-ru html.js .views-exposed-form fieldset.collapsible .fieldset-legend,
+ .i18n-ru .collapsibleList > li > .collapse-arrow,
+ .i18n-ru .view-meet-danes-list #edit-tid-all,
+ .i18n-ru .collapsibleList + a,
+ .i18n-ru .panel-threecol252550 .panel-pane[class*="section-box-279"].collapsiblock-processed h2 .title ,
+ .i18n-ru .slider-t1 .navi .label ul li a,
+ .i18n-ru .menu-red-arrows ul li,
+ .i18n-ru .panel-col-content-bottom-left .field-name-body ul li,
+ .i18n-ru .section-box-572-160 .link a,
+ .i18n-ru .menu-red-arrows .block_teaser p,
+ .i18n-ru .menu-red-arrows p,
+ .i18n-ru html,
+ .i18n-ru body,
+ .i18n-ru .sharebox-t2 .lft .pd ul li a,
+ .i18n-ru h5,
+ .i18n-ru #content #visitdk-regions-list .regions-list a,
+ .i18n-ru .mwr-t10 .bdy ul li a ,
+ .i18n-ru a.bullet,
  .i18n-ru .recommendation-form label,
- .i18n-ru .create-an-offer .webform-component-date select, 
- .i18n-ru .request-proposal #webform-component-planned-dates-from select, 
- .i18n-ru .request-proposal #webform-component-planned-dates-to select, 
- .i18n-ru .topten_list .foot a, 
- .i18n-ru .pane-node-body h6, 
- .i18n-ru .pane-node-body blockquote, 
- .i18n-ru .block_teaser blockquote, 
- .i18n-ru .button-wrapper input, 
- .i18n-ru .button-wrapper a, 
- .i18n-ru .button-wrapper a:hover, 
- .i18n-ru .form-fast-track label, 
- .i18n-ru .create-an-offer label, 
- .i18n-ru .request-proposal label, 
- .i18n-ru .panel-col-main-content-custom .pane-freetext-search.section-box-279 .title, 
- .i18n-ru .brochures_cat, 
- .i18n-ru #commerce-checkout-form-checkout label , 
- .i18n-ru .view-commerce-cart-block .links li a, 
- .i18n-ru .brochures_cat a, 
- .i18n-ru .shop .views-field-edit-delete input, 
- .i18n-ru .brochures_cat .views-field-title, 
- .i18n-ru .panel-col-main-content-custom .pane-visitdk-publikation-pane .section-box-279-228 .publikation-title h3, 
- .i18n-ru .pane-offer-carousel .pane-content .views-field-body blockquote, 
+ .i18n-ru .create-an-offer .webform-component-date select,
+ .i18n-ru .request-proposal #webform-component-planned-dates-from select,
+ .i18n-ru .request-proposal #webform-component-planned-dates-to select,
+ .i18n-ru .topten_list .foot a,
+ .i18n-ru .pane-node-body h6,
+ .i18n-ru .pane-node-body blockquote,
+ .i18n-ru .block_teaser blockquote,
+ .i18n-ru .button-wrapper input,
+ .i18n-ru .button-wrapper a,
+ .i18n-ru .button-wrapper a:hover,
+ .i18n-ru .form-fast-track label,
+ .i18n-ru .create-an-offer label,
+ .i18n-ru .request-proposal label,
+ .i18n-ru .panel-col-main-content-custom .pane-freetext-search.section-box-279 .title,
+ .i18n-ru .brochures_cat,
+ .i18n-ru #commerce-checkout-form-checkout label ,
+ .i18n-ru .view-bosa-shopping-cart-block .links li a,
+ .i18n-ru .brochures_cat a,
+ .i18n-ru .shop .views-field-edit-delete input,
+ .i18n-ru .brochures_cat .views-field-title,
+ .i18n-ru .panel-col-main-content-custom .pane-visitdk-publikation-pane .section-box-279-228 .publikation-title h3,
+ .i18n-ru .pane-offer-carousel .pane-content .views-field-body blockquote,
  .i18n-ru .sharebox-t1 ul li .drop .bg .px ul li a,
  .i18n-ru .pane-my-guide-name h1 a,
  .i18n-ru .pane-my-guide-name h1 input{
@@ -1167,98 +1168,98 @@ _______FONTS RUSSIAN_____
 }
 
 
-/*_____13px_____*/ 
- .i18n-ru .pane-tellus-search .TellusPreviousNext a.TellusPage, 
- .i18n-ru .panel-twocol_75_25_stacked .pager .pager-item, 
- .i18n-ru .panel-twocol_75_25_stacked .pager .pager-item a, 
- .i18n-ru .pane-tellus-search .TellusPreviousNext .TellusNoOfHitsDots, 
- .i18n-ru .pane-tellus-search .TellusNoOfHits, 
- .i18n-ru .pane-visitdk-topten-references .node-term, 
- .i18n-ru .section-box-250-470-first .block_teaser a , 
- .i18n-ru .ProductBodyContent .ProductScheduleList table, 
- .i18n-ru .ProductBodyContent .ProductPriceCategoryList table, 
- .i18n-ru .contact-info .usr .rgt .nam, 
- .i18n-ru .contact-info .usr .rgt .tit, 
- .i18n-ru .contact-info .info .lft p , 
- .i18n-ru .contact-info .info .rgt p, 
- .i18n-ru .contact-info .info .rgt a, 
- .i18n-ru .columns-t2 .bdy ul li a, 
- .i18n-ru .topten_list ol, 
- .i18n-ru .ProductBodyContent .TellusDbOwner h3, 
- .i18n-ru .ProductBodyContent .TellusCategoryListInfo, 
- .i18n-ru .ProductBodyContent .TellusCategoryListInfo li a, 
- .i18n-ru .TellusProductContacts h4, 
- .i18n-ru .overlay-t1 .auto .hd .lft .pd p span#slider2-gallery, 
- .i18n-ru .links-simple a, 
- .i18n-ru .links-simple-black a, 
- .i18n-ru .links-list-red.menu-red-arrows ul li, 
- .i18n-ru .mwr-body-t3 a , 
- .i18n-ru .pane-node-body h4, 
- .i18n-ru .section-box-425-280, 
- .i18n-ru .section-box-206, 
- .i18n-ru .section-box-206-280, 
- .i18n-ru .section-box-425-280 .block_teaser, 
- .i18n-ru .section-box-206-280 .block_teaser, 
- .i18n-ru .qtip-content .pane-content, 
- .i18n-ru .section-box-279.section-title h2 .title, 
- .i18n-ru .section-box-279-228.section-title h2 .title, 
- .i18n-ru .section-box-279-343.section-title h2 .title, 
- .i18n-ru .links-inline .pane-content a, 
- .i18n-ru .user-contact-info .usr .rgt .nam, 
- .i18n-ru .user-contact-info .usr .rgt .tit, 
- .i18n-ru .user-contact-info .info .lft p, 
- .i18n-ru .user-contact-info .info .rgt p , 
- .i18n-ru .user-contact-info .info .rgt a , 
- .i18n-ru .mwr-t11 .more a , 
- .i18n-ru .ProductOtherContactList td:first-child, 
- .i18n-ru .twitter-t1 .pad .hd p, 
- .i18n-ru .FacilityCategoryList ul > li h4, 
- .i18n-ru .ProductTransportList ul > li > h4, 
- .i18n-ru .mwr-t9 .bdy p, 
- .i18n-ru .view-download-block-news, 
- .i18n-ru .ProductDistanceList h4, 
- .i18n-ru .pane-content > .links-inline a, 
- .i18n-ru #content .facetapi-facetapi-links li a, 
- .i18n-ru #content .facetapi-facetapi-links li span.active-link, 
+/*_____13px_____*/
+ .i18n-ru .pane-tellus-search .TellusPreviousNext a.TellusPage,
+ .i18n-ru .panel-twocol_75_25_stacked .pager .pager-item,
+ .i18n-ru .panel-twocol_75_25_stacked .pager .pager-item a,
+ .i18n-ru .pane-tellus-search .TellusPreviousNext .TellusNoOfHitsDots,
+ .i18n-ru .pane-tellus-search .TellusNoOfHits,
+ .i18n-ru .pane-visitdk-topten-references .node-term,
+ .i18n-ru .section-box-250-470-first .block_teaser a ,
+ .i18n-ru .ProductBodyContent .ProductScheduleList table,
+ .i18n-ru .ProductBodyContent .ProductPriceCategoryList table,
+ .i18n-ru .contact-info .usr .rgt .nam,
+ .i18n-ru .contact-info .usr .rgt .tit,
+ .i18n-ru .contact-info .info .lft p ,
+ .i18n-ru .contact-info .info .rgt p,
+ .i18n-ru .contact-info .info .rgt a,
+ .i18n-ru .columns-t2 .bdy ul li a,
+ .i18n-ru .topten_list ol,
+ .i18n-ru .ProductBodyContent .TellusDbOwner h3,
+ .i18n-ru .ProductBodyContent .TellusCategoryListInfo,
+ .i18n-ru .ProductBodyContent .TellusCategoryListInfo li a,
+ .i18n-ru .TellusProductContacts h4,
+ .i18n-ru .overlay-t1 .auto .hd .lft .pd p span#slider2-gallery,
+ .i18n-ru .links-simple a,
+ .i18n-ru .links-simple-black a,
+ .i18n-ru .links-list-red.menu-red-arrows ul li,
+ .i18n-ru .mwr-body-t3 a ,
+ .i18n-ru .pane-node-body h4,
+ .i18n-ru .section-box-425-280,
+ .i18n-ru .section-box-206,
+ .i18n-ru .section-box-206-280,
+ .i18n-ru .section-box-425-280 .block_teaser,
+ .i18n-ru .section-box-206-280 .block_teaser,
+ .i18n-ru .qtip-content .pane-content,
+ .i18n-ru .section-box-279.section-title h2 .title,
+ .i18n-ru .section-box-279-228.section-title h2 .title,
+ .i18n-ru .section-box-279-343.section-title h2 .title,
+ .i18n-ru .links-inline .pane-content a,
+ .i18n-ru .user-contact-info .usr .rgt .nam,
+ .i18n-ru .user-contact-info .usr .rgt .tit,
+ .i18n-ru .user-contact-info .info .lft p,
+ .i18n-ru .user-contact-info .info .rgt p ,
+ .i18n-ru .user-contact-info .info .rgt a ,
+ .i18n-ru .mwr-t11 .more a ,
+ .i18n-ru .ProductOtherContactList td:first-child,
+ .i18n-ru .twitter-t1 .pad .hd p,
+ .i18n-ru .FacilityCategoryList ul > li h4,
+ .i18n-ru .ProductTransportList ul > li > h4,
+ .i18n-ru .mwr-t9 .bdy p,
+ .i18n-ru .view-download-block-news,
+ .i18n-ru .ProductDistanceList h4,
+ .i18n-ru .pane-content > .links-inline a,
+ .i18n-ru #content .facetapi-facetapi-links li a,
+ .i18n-ru #content .facetapi-facetapi-links li span.active-link,
  .i18n-ru #content .facetapi-facetapi-checkbox-links li a,
- .i18n-ru .bef-checkboxes label, 
- .i18n-ru fieldset .bef-checkboxes label, 
- .i18n-ru .section-box-279.sextion-box-form .form-item label, 
- .i18n-ru .collapsibleList > li > ul li a, 
- .i18n-ru .view-meet-danes-list .form-type-bef-link, 
- .i18n-ru div.error, 
- .i18n-ru .panel-col-nav .menu .pane-title, 
- .i18n-ru #page-title, 
- .i18n-ru .ProductInfoSidebar, 
- .i18n-ru .section-title h2, 
- .i18n-ru .section-box-279.section-title h2, 
- .i18n-ru .section-box-572.section-title h2, 
- .i18n-ru .section-box-865.section-title h2 , 
- .i18n-ru .section-title .pane-content a, 
- .i18n-ru .pane-content > .section-title a, 
- .i18n-ru #block-menu-block-1 ul.menu a, 
- .i18n-ru .view-encyclopedia-listing .views-field-body, 
- .i18n-ru #webform-component-send-a-copy-to-email label , 
- .i18n-ru #webform-component-description, 
- .i18n-ru .form-fast-track .field-name-body, 
- .i18n-ru #edit-submitted-offer-type label, 
+ .i18n-ru .bef-checkboxes label,
+ .i18n-ru fieldset .bef-checkboxes label,
+ .i18n-ru .section-box-279.sextion-box-form .form-item label,
+ .i18n-ru .collapsibleList > li > ul li a,
+ .i18n-ru .view-meet-danes-list .form-type-bef-link,
+ .i18n-ru div.error,
+ .i18n-ru .panel-col-nav .menu .pane-title,
+ .i18n-ru #page-title,
+ .i18n-ru .ProductInfoSidebar,
+ .i18n-ru .section-title h2,
+ .i18n-ru .section-box-279.section-title h2,
+ .i18n-ru .section-box-572.section-title h2,
+ .i18n-ru .section-box-865.section-title h2 ,
+ .i18n-ru .section-title .pane-content a,
+ .i18n-ru .pane-content > .section-title a,
+ .i18n-ru #block-menu-block-1 ul.menu a,
+ .i18n-ru .view-encyclopedia-listing .views-field-body,
+ .i18n-ru #webform-component-send-a-copy-to-email label ,
+ .i18n-ru #webform-component-description,
+ .i18n-ru .form-fast-track .field-name-body,
+ .i18n-ru #edit-submitted-offer-type label,
  .i18n-ru #edit-submitted-languages label,
- .i18n-ru .panel-twocol_25_75_stacked .panel-col-main-content-col-1 .panel-pane[class*="pane-facetapi"] h2 .title, 
- .i18n-ru #views-exposed-form-employees-list-panel-pane-1 .form-text, 
- .i18n-ru #webform-component-event-type div.form-item label, 
- .i18n-ru #webform-component-area div.form-item label, 
- .i18n-ru #single-offer .view-offer-additional-info, 
- .i18n-ru #employees_list .section-box-279-300 .views-field-term-node-tid , 
- .i18n-ru .create-an-offer .field-name-body, 
- .i18n-ru #employee_single .panel-col-main-content-2-col-wrapper-bottom .panel-col-main-content-col-2-bottom .pane-node-field-phone, 
- .i18n-ru #employee_single .panel-col-main-content-2-col-wrapper-bottom .panel-col-main-content-col-2-bottom .field h2.field-label, 
- .i18n-ru #employee_single .panel-col-main-content-2-col-wrapper-bottom .panel-col-main-content-col-2-bottom .pane-node-field-contact-info .field-name-field-label, 
- .i18n-ru #brochure-text .pane-content, 
- .i18n-ru .brochures_cat .views-field-field-pdf-file a, 
- .i18n-ru #shop-info, 
+ .i18n-ru .panel-twocol_25_75_stacked .panel-col-main-content-col-1 .panel-pane[class*="pane-facetapi"] h2 .title,
+ .i18n-ru #views-exposed-form-employees-list-panel-pane-1 .form-text,
+ .i18n-ru #webform-component-event-type div.form-item label,
+ .i18n-ru #webform-component-area div.form-item label,
+ .i18n-ru #single-offer .view-offer-additional-info,
+ .i18n-ru #employees_list .section-box-279-300 .views-field-term-node-tid ,
+ .i18n-ru .create-an-offer .field-name-body,
+ .i18n-ru #employee_single .panel-col-main-content-2-col-wrapper-bottom .panel-col-main-content-col-2-bottom .pane-node-field-phone,
+ .i18n-ru #employee_single .panel-col-main-content-2-col-wrapper-bottom .panel-col-main-content-col-2-bottom .field h2.field-label,
+ .i18n-ru #employee_single .panel-col-main-content-2-col-wrapper-bottom .panel-col-main-content-col-2-bottom .pane-node-field-contact-info .field-name-field-label,
+ .i18n-ru #brochure-text .pane-content,
+ .i18n-ru .brochures_cat .views-field-field-pdf-file a,
+ .i18n-ru #shop-info,
  .i18n-ru .article .panel-pane.pane-node-field-right-blocks .field-name-field-right-blocks > .field-items > .field-item .article-content,
- .i18n-ru .shop .views-field-line-item-title p, 
- .i18n-ru .shop .currency_select_menu li a , 
+ .i18n-ru .shop .views-field-line-item-title p,
+ .i18n-ru .shop .currency_select_menu li a ,
  .i18n-ru #employees_list .section-box-279-300 .views-field-field-job-title,
  .i18n-ru #employee_single .panel-col-main-content-2-col-wrapper-bottom .panel-col-main-content-col-2-bottom .pane-node-field-contact-info .field-name-field-value,
  .i18n-ru .pager-current-count{
@@ -1266,146 +1267,146 @@ _______FONTS RUSSIAN_____
 }
 
 
-/*_____12px_____*/ 
+/*_____12px_____*/
  .i18n-ru #content .facetapi-facetapi-links li a + * a,
  .i18n-ru .page-added-to-my-guide,
  .i18n-ru .add-my-guide,
- .i18n-ru .create-an-offer .webform-container-inline div.description, 
- .i18n-ru .create-an-offer .form-item .description, 
-.i18n-ru.create-an-offer fieldset .description, 
- .i18n-ru .request-proposal .webform-container-inline div.description, 
- .i18n-ru .request-proposal .form-item .description, 
-.i18n-ru.request-proposal fieldset .description, 
- .i18n-ru .form-corporate, 
- .i18n-ru .form-newsletter, 
- .i18n-ru .TellusProductContacts h4 + div, 
- .i18n-ru .mwr-body-t2 .lft p, 
- .i18n-ru .mwr-body-t2 .rgt p , 
- .i18n-ru .mwr-head-t2 p , 
- .i18n-ru .view-offers-list .section-box-279-300 p, 
- .i18n-ru .pane-node-field-date, 
- .i18n-ru .slider-t2-desc p, 
- .i18n-ru .pane-offer-carousel .pane-content, 
- .i18n-ru h6, 
- .i18n-ru .view-id-employees .list ul li a, 
- .i18n-ru .block_list, 
- .i18n-ru .sharebox-t2 .rgt .pd .inp input, 
- .i18n-ru .addto-t1 p, 
- .i18n-ru .sharebox-t1 ul li .drop .bg .cpy .lf input, 
- .i18n-ru .block_teaser, 
- .i18n-ru .pane-tellus-related-products .TellusProductList .ProductTextList, 
- .i18n-ru #content #visitdk-regions-list .custom-block .body, 
- .i18n-ru #content #visitdk-regions-current .region-information .body, 
- .i18n-ru .mwr-t11 .bdy .itm .lft .cal .day p, 
- .i18n-ru .mwr-t11 .bdy .itm .rgt p, 
- .i18n-ru .mwr-t11 .bdy .itm .rgt p a, 
- .i18n-ru .twitter-t1 .pad .list .twtr-tweet-text, 
- .i18n-ru .twtr-tweet-text p, 
- .i18n-ru .ProductOtherContactList td:first-child + td, 
- .i18n-ru .FacilityCategoryList ul > li > ul li, 
- .i18n-ru .ProductTransportList ul > li > div, 
- .i18n-ru .article .block_teaser .field-name-body, 
- .i18n-ru .panel-pane[class*="section-box-279"] .block_teaser, 
- .i18n-ru .panel-pane[class*="section-box-279"] .block-teaser, 
- .i18n-ru button.jqTransformButton span span, 
- .i18n-ru .jqTransformInputInner div input , 
- .i18n-ru .jqTransformSelectWrapper div span , 
- .i18n-ru .jqTransformSelectWrapper ul a , 
- .i18n-ru .file .inp .pd input, 
- .i18n-ru #page > footer, 
- .i18n-ru #block-menu-block-2 ul.menu, 
- .i18n-ru #block-menu-block-2 ul.menu li, 
- .i18n-ru #block-menu-block-1 ul.menu, 
- .i18n-ru #block-menu-block-1 ul.menu li, 
- .i18n-ru #offers .view-offers-list .views-row-first .views-field-field-offer-price-description, 
- .i18n-ru .panel-twocol_25_75_stacked .pane-tellus-search .TellusProduct .summary, 
- .i18n-ru .panel-twocol_25_75_stacked .pane-tellus-search .TellusProduct .dtstart, 
- .i18n-ru .panel-twocol_25_75_stacked .pane-tellus-search .TellusProduct .dtend, 
- .i18n-ru #single-offer .views-field-field-offer-price-description, 
- .i18n-ru .request-proposal .fieldset-wrapper label, 
- .i18n-ru .create-an-offer .webform-component-date.field-prefix, 
- .i18n-ru .request-proposal #webform-component-planned-dates-from .field-prefix, 
- .i18n-ru .request-proposal #webform-component-planned-dates-to .field-prefix, 
- .i18n-ru table.jqTransformTextarea td#jqTransformTextarea-mm textarea , 
- .i18n-ru .pane-tellus-cusom-blocks .pane-content > div .block_teaser, 
- .i18n-ru #content .panel-searchpage .see-more-link, 
+ .i18n-ru .create-an-offer .webform-container-inline div.description,
+ .i18n-ru .create-an-offer .form-item .description,
+.i18n-ru.create-an-offer fieldset .description,
+ .i18n-ru .request-proposal .webform-container-inline div.description,
+ .i18n-ru .request-proposal .form-item .description,
+.i18n-ru.request-proposal fieldset .description,
+ .i18n-ru .form-corporate,
+ .i18n-ru .form-newsletter,
+ .i18n-ru .TellusProductContacts h4 + div,
+ .i18n-ru .mwr-body-t2 .lft p,
+ .i18n-ru .mwr-body-t2 .rgt p ,
+ .i18n-ru .mwr-head-t2 p ,
+ .i18n-ru .view-offers-list .section-box-279-300 p,
+ .i18n-ru .pane-node-field-date,
+ .i18n-ru .slider-t2-desc p,
+ .i18n-ru .pane-offer-carousel .pane-content,
+ .i18n-ru h6,
+ .i18n-ru .view-id-employees .list ul li a,
+ .i18n-ru .block_list,
+ .i18n-ru .sharebox-t2 .rgt .pd .inp input,
+ .i18n-ru .addto-t1 p,
+ .i18n-ru .sharebox-t1 ul li .drop .bg .cpy .lf input,
+ .i18n-ru .block_teaser,
+ .i18n-ru .pane-tellus-related-products .TellusProductList .ProductTextList,
+ .i18n-ru #content #visitdk-regions-list .custom-block .body,
+ .i18n-ru #content #visitdk-regions-current .region-information .body,
+ .i18n-ru .mwr-t11 .bdy .itm .lft .cal .day p,
+ .i18n-ru .mwr-t11 .bdy .itm .rgt p,
+ .i18n-ru .mwr-t11 .bdy .itm .rgt p a,
+ .i18n-ru .twitter-t1 .pad .list .twtr-tweet-text,
+ .i18n-ru .twtr-tweet-text p,
+ .i18n-ru .ProductOtherContactList td:first-child + td,
+ .i18n-ru .FacilityCategoryList ul > li > ul li,
+ .i18n-ru .ProductTransportList ul > li > div,
+ .i18n-ru .article .block_teaser .field-name-body,
+ .i18n-ru .panel-pane[class*="section-box-279"] .block_teaser,
+ .i18n-ru .panel-pane[class*="section-box-279"] .block-teaser,
+ .i18n-ru button.jqTransformButton span span,
+ .i18n-ru .jqTransformInputInner div input ,
+ .i18n-ru .jqTransformSelectWrapper div span ,
+ .i18n-ru .jqTransformSelectWrapper ul a ,
+ .i18n-ru .file .inp .pd input,
+ .i18n-ru #page > footer,
+ .i18n-ru #block-menu-block-2 ul.menu,
+ .i18n-ru #block-menu-block-2 ul.menu li,
+ .i18n-ru #block-menu-block-1 ul.menu,
+ .i18n-ru #block-menu-block-1 ul.menu li,
+ .i18n-ru #offers .view-offers-list .views-row-first .views-field-field-offer-price-description,
+ .i18n-ru .panel-twocol_25_75_stacked .pane-tellus-search .TellusProduct .summary,
+ .i18n-ru .panel-twocol_25_75_stacked .pane-tellus-search .TellusProduct .dtstart,
+ .i18n-ru .panel-twocol_25_75_stacked .pane-tellus-search .TellusProduct .dtend,
+ .i18n-ru #single-offer .views-field-field-offer-price-description,
+ .i18n-ru .request-proposal .fieldset-wrapper label,
+ .i18n-ru .create-an-offer .webform-component-date.field-prefix,
+ .i18n-ru .request-proposal #webform-component-planned-dates-from .field-prefix,
+ .i18n-ru .request-proposal #webform-component-planned-dates-to .field-prefix,
+ .i18n-ru table.jqTransformTextarea td#jqTransformTextarea-mm textarea ,
+ .i18n-ru .pane-tellus-cusom-blocks .pane-content > div .block_teaser,
+ .i18n-ru #content .panel-searchpage .see-more-link,
  .i18n-ru .panel-twocol_25_75_stacked .pane-tellus-search .TellusProduct .node-date,
  .i18n-ru .panel-twocol_25_75_stacked .search-result-wrapper .search-wrap,
- .i18n-ru .panel-twocol_25_75_stacked .pane-tellus-search .TellusProduct .TellusCategoryList a, 
- .i18n-ru .view-commerce-cart-block .line-item-total, 
- .i18n-ru .view-commerce-cart-block .line-item-quantity , 
- .i18n-ru #activities .view-content .views-field-body, 
- .i18n-ru #single-offer .views-field-field-offer-valid, 
- .i18n-ru .panel-danskturisme .panel-col-content-bottom-wrapper .block_teaser, 
- .i18n-ru #activities .pane-content, 
- .i18n-ru .cart-empty-block, 
- .i18n-ru .view-commerce-cart-block td,
+ .i18n-ru .panel-twocol_25_75_stacked .pane-tellus-search .TellusProduct .TellusCategoryList a,
+ .i18n-ru .view-bosa-shopping-cart-block .line-item-total,
+ .i18n-ru .view-bosa-shopping-cart-block .line-item-quantity ,
+ .i18n-ru #activities .view-content .views-field-body,
+ .i18n-ru #single-offer .views-field-field-offer-valid,
+ .i18n-ru .panel-danskturisme .panel-col-content-bottom-wrapper .block_teaser,
+ .i18n-ru #activities .pane-content,
+ .i18n-ru .cart-empty-block,
+ .i18n-ru .view-bosa-shopping-cart-block td,
  .i18n-ru .ProductListTitleLatest  ul li a .ProductDate,
  .i18n-ru #content #visitdk-regions-list .regions-list ul a {
   font-size: 14px;
 }
 
 
-/*_____11px_____*/ 
- .i18n-ru .section-box-279.sextion-box-form .field-name-body, 
- .i18n-ru .addthis_button, 
+/*_____11px_____*/
+ .i18n-ru .section-box-279.sextion-box-form .field-name-body,
+ .i18n-ru .addthis_button,
  .i18n-ru .share-button,
  .i18n-ru .element-add-button a,
  .i18n-ru .pane-publish-button a,
  .i18n-ru .clear-my-guide,
- .i18n-ru .close-btn, 
- .i18n-ru .add-button, 
- .i18n-ru .mwr-t11 .bdy .itm .lft .cal .mon p, 
- .i18n-ru .section-box-279-300 p, 
- .i18n-ru label, 
- .i18n-ru .block-market-redirect select, 
- .i18n-ru #ui-datepicker-div, 
- .i18n-ru .ui-widget-header, 
- .i18n-ru .form-corporate .form-item label, 
- .i18n-ru .panel-twocol_75_25_stacked .pane-tellus-search .TellusProduct .node-body, 
- .i18n-ru .panel-twocol_75_25_stacked .visitdk_search-results .search-snippet, 
- .i18n-ru #activities .views-field-field-body-summary, 
- .i18n-ru .panel-threecol252550 .section-box-572.pane-tellus-search .TellusProductList .TellusProduct .internal-node .node-title address, 
- .i18n-ru .panel-threecol252550 .section-box-572.pane-tellus-search .TellusProductList .TellusProduct .internal-node .node-body, 
- .i18n-ru .panel-threecol252550 .section-box-572 .search-results .search-snippet, 
- .i18n-ru #content .panel-searchpage .node-body, 
- .i18n-ru #content .panel-searchpage .visitdk_search-results .search-snippet, 
- .i18n-ru .panel-threecol252550 .section-box-572.pane-tellus-search .TellusProductList .TellusProduct .internal-node .TellusBookingBox .button-wrapper a, 
- .i18n-ru .panel-threecol252550 .section-box-572.pane-tellus-search .TellusProductList .TellusProduct .internal-node .button-wrapper a, 
- .i18n-ru .panel-threecol252550 .section-box-572 .search-results .link-read-more a, 
- .i18n-ru .panel-twocol_75_25_stacked .pane-tellus-search .TellusProduct .node-term ul li, 
+ .i18n-ru .close-btn,
+ .i18n-ru .add-button,
+ .i18n-ru .mwr-t11 .bdy .itm .lft .cal .mon p,
+ .i18n-ru .section-box-279-300 p,
+ .i18n-ru label,
+ .i18n-ru .block-market-redirect select,
+ .i18n-ru #ui-datepicker-div,
+ .i18n-ru .ui-widget-header,
+ .i18n-ru .form-corporate .form-item label,
+ .i18n-ru .panel-twocol_75_25_stacked .pane-tellus-search .TellusProduct .node-body,
+ .i18n-ru .panel-twocol_75_25_stacked .visitdk_search-results .search-snippet,
+ .i18n-ru #activities .views-field-field-body-summary,
+ .i18n-ru .panel-threecol252550 .section-box-572.pane-tellus-search .TellusProductList .TellusProduct .internal-node .node-title address,
+ .i18n-ru .panel-threecol252550 .section-box-572.pane-tellus-search .TellusProductList .TellusProduct .internal-node .node-body,
+ .i18n-ru .panel-threecol252550 .section-box-572 .search-results .search-snippet,
+ .i18n-ru #content .panel-searchpage .node-body,
+ .i18n-ru #content .panel-searchpage .visitdk_search-results .search-snippet,
+ .i18n-ru .panel-threecol252550 .section-box-572.pane-tellus-search .TellusProductList .TellusProduct .internal-node .TellusBookingBox .button-wrapper a,
+ .i18n-ru .panel-threecol252550 .section-box-572.pane-tellus-search .TellusProductList .TellusProduct .internal-node .button-wrapper a,
+ .i18n-ru .panel-threecol252550 .section-box-572 .search-results .link-read-more a,
+ .i18n-ru .panel-twocol_75_25_stacked .pane-tellus-search .TellusProduct .node-term ul li,
  .i18n-ru #content .panel-searchpage .TellusProductList .TellusProduct .node-term ul li{
   font-size: 12px;
 }
 
 
-/*_____10px_____*/ 
- .i18n-ru .block-market-redirect .jqTransformSelectWrapper div span, 
+/*_____10px_____*/
+ .i18n-ru .block-market-redirect .jqTransformSelectWrapper div span,
  .i18n-ru #block-follow-site .block-title {
   font-size: 10px;
 }
 
 
-/*_____3px_____*/ 
- .i18n-ru .panel-pane[class*="section-box-279"] h2, 
- .i18n-ru .section-box-572-160 h1, 
- .i18n-ru .section-box-572-160 h2, 
- .i18n-ru .form-newsletter h1, 
- .i18n-ru .view-filter-galleries .section-box-279 .views-field-title, 
- .i18n-ru .pane-tellus-cusom-blocks .pane-content > div h2, 
- .i18n-ru .panel-pane[class*="section-box-279"] h2 .align-span, 
- .i18n-ru .section-box-572-160 h1 .align-span, 
- .i18n-ru .section-box-572-160 h2 .align-span, 
- .i18n-ru .form-newsletter h1 .align-span, 
- .i18n-ru .view-filter-galleries .section-box-279 .views-field-title .align-span, 
- .i18n-ru .pane-tellus-cusom-blocks .pane-content > div h2 .align-span, 
- .i18n-ru #employee_single .field-name-field-recommended > .field-items > .field-item:first-child ~ .field-item h2, 
+/*_____3px_____*/
+ .i18n-ru .panel-pane[class*="section-box-279"] h2,
+ .i18n-ru .section-box-572-160 h1,
+ .i18n-ru .section-box-572-160 h2,
+ .i18n-ru .form-newsletter h1,
+ .i18n-ru .view-filter-galleries .section-box-279 .views-field-title,
+ .i18n-ru .pane-tellus-cusom-blocks .pane-content > div h2,
+ .i18n-ru .panel-pane[class*="section-box-279"] h2 .align-span,
+ .i18n-ru .section-box-572-160 h1 .align-span,
+ .i18n-ru .section-box-572-160 h2 .align-span,
+ .i18n-ru .form-newsletter h1 .align-span,
+ .i18n-ru .view-filter-galleries .section-box-279 .views-field-title .align-span,
+ .i18n-ru .pane-tellus-cusom-blocks .pane-content > div h2 .align-span,
+ .i18n-ru #employee_single .field-name-field-recommended > .field-items > .field-item:first-child ~ .field-item h2,
  .i18n-ru #employee_single .field-name-field-recommended > .field-items > .field-item:first-child ~ .field-item h2 .align-span{
   font-size: 3px;
 }
 
 
-/*_____1px_____*/ 
+/*_____1px_____*/
  .i18n-ru table.jqTransformTextarea td {
   font-size: 1px;
 }
@@ -1497,7 +1498,7 @@ body.i18n-ru,
 .i18n-ru .brochures_cat .views-field-title,
 .i18n-ru #danes-chef .pane-entity-field .pane-title,
 .i18n-ru #danes-chef .quote,
-.i18n-ru #danes-chef .field-collection-container, 
+.i18n-ru #danes-chef .field-collection-container,
 .i18n-ru #danes-chef .field-collection-view,
 .i18n-ru #danes-chef .field-name-field-block-title ,
 .i18n-ru #edit-cart-contents .fieldset-legend,
@@ -1511,9 +1512,9 @@ body.i18n-ru,
 .i18n-ru .container #employee_single.panel-threecol_50_25_25 .panel-col-main-content-col-1 .field-name-field-job-title,
 .i18n-ru #danes-chef .view-related-meet-danes .views-field-title a ,
 .i18n-ru .collapsibleList + a,
-.i18n-ru .panel-threecol252550 .pane-custom.panel-pane[class*="section-box-279"] .pane-title, 
+.i18n-ru .panel-threecol252550 .pane-custom.panel-pane[class*="section-box-279"] .pane-title,
 .i18n-ru .panel-twocol_50_50 .panel-pane[class*="pane-facetapi"] .pane-title ,
-.i18n-ru .panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title, 
+.i18n-ru .panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title,
 .i18n-ru .panel-twocol_50_50 .panel-pane[class*="pane-facetapi"] li span,
 .i18n-ru .panel-threecol252550 > .panel-panel-wrapper.panel-col-main-content-col-wrapper > .panel-panel.panel-col-last.no-second-row .article-search-dashboard h1,
 .i18n-ru .panel-twocol_75_25_stacked .pane-tellus-search .TellusProduct .ProductNumber,
@@ -1715,7 +1716,7 @@ h1{white-space:normal;}
 .panel-pane[class*="pane-meet-danes-list"] .pane-title{white-space:normal;}
 .explore-t1 .hd p{white-space:normal;}
 h2{white-space:normal;}
-#search-panel.panel-threecol252550 .pane-custom.panel-pane[class*="section-box-279"] .pane-title{white-space:normal;} 
+#search-panel.panel-threecol252550 .pane-custom.panel-pane[class*="section-box-279"] .pane-title{white-space:normal;}
 .panel-twocol_50_50 .panel-pane[class*="pane-facetapi"] .pane-title{white-space:normal;}
 .pane-tellus-search .TellusNoOfHits h3{white-space:normal;}
 .panel-threecol252550 .section-box-572 .search-results-header-wrapper h2{white-space:normal;}
@@ -1787,7 +1788,7 @@ h4 {white-space:normal;}
 
 /*_____14px_____*/
 #danes-chef .related-tags .pane-title{white-space:normal;}
-#search-panel.panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title{white-space:normal;} 
+#search-panel.panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title{white-space:normal;}
 .panel-twocol_50_50 .panel-pane[class*="pane-facetapi"] li span{white-space:normal;}
 html.js .views-exposed-form fieldset.collapsible .fieldset-legend{white-space:normal;}
 .collapsibleList > li > .collapse-arrow{white-space:normal;}
@@ -1823,7 +1824,7 @@ a.bullet{white-space:normal;}
 .panel-col-main-content-custom .pane-freetext-search.section-box-279 .title{white-space:normal;}
 .brochures_cat{white-space:normal;}
 #commerce-checkout-form-checkout label {white-space:normal;}
-.view-commerce-cart-block .links li a{white-space:normal;}
+.view-bosa-shopping-cart-block .links li a{white-space:normal;}
 .brochures_cat a{white-space:normal;}
 .shop .views-field-edit-delete input{white-space:normal;}
 .brochures_cat .views-field-title{white-space:normal;}
@@ -1931,10 +1932,10 @@ div.error{white-space:normal;}
 
 /*_____12px_____*/
 .create-an-offer .webform-container-inline div.description{white-space:normal;}
-.create-an-offer .form-item .description{white-space:normal;} 
+.create-an-offer .form-item .description{white-space:normal;}
 .create-an-offer fieldset .description{white-space:normal;}
 .request-proposal .webform-container-inline div.description{white-space:normal;}
-.request-proposal .form-item .description{white-space:normal;} 
+.request-proposal .form-item .description{white-space:normal;}
 .request-proposal fieldset .description{white-space:normal;}
 .form-corporate{white-space:normal;}
 .form-newsletter{white-space:normal;}
@@ -1991,14 +1992,14 @@ table.jqTransformTextarea td#jqTransformTextarea-mm textarea {white-space:normal
 #content .panel-searchpage .see-more-link{white-space:normal;}
 .panel-twocol_25_75_stacked .pane-tellus-search .TellusProduct .node-date{white-space:normal;}
 .panel-twocol_25_75_stacked .pane-tellus-search .TellusProduct .TellusCategoryList a{white-space:normal;}
-.view-commerce-cart-block .line-item-total{white-space:normal;}
-.view-commerce-cart-block .line-item-quantity {white-space:normal;}
+.view-bosa-shopping-cart-block .line-item-total{white-space:normal;}
+.view-bosa-shopping-cart-block .line-item-quantity {white-space:normal;}
 #activities .view-content .views-field-body{white-space:normal;}
 #single-offer .views-field-field-offer-valid{white-space:normal;}
 .panel-danskturisme .panel-col-content-bottom-wrapper .block_teaser{white-space:normal;}
 #activities .pane-content{white-space:normal;}
 .cart-empty-block{white-space:normal;}
-.view-commerce-cart-block td {white-space:normal;}
+.view-bosa-shopping-cart-block td {white-space:normal;}
 
 
 /*_____11px_____*/
@@ -2058,11 +2059,11 @@ table.jqTransformTextarea td {white-space:normal;}
 /*_____EMS_____*/
 address{white-space:normal;}
 th{white-space:normal;}
-table{white-space:normal;} 
-td{white-space:normal;} 
-select{white-space:normal;} 
-input{white-space:normal;} 
-label{white-space:normal;} 
+table{white-space:normal;}
+td{white-space:normal;}
+select{white-space:normal;}
+input{white-space:normal;}
+label{white-space:normal;}
 textarea {white-space:normal;}
 .form-item .description{white-space:normal;}
 fieldset .description{white-space:normal;}
@@ -2160,7 +2161,7 @@ body{white-space:normal;}
 #content .panel-searchpage .node-body{white-space:normal;}
 .panel-threecol252550 .panel-pane.section-box-279 .facetapi-facetapi-links li a{white-space:normal;}
 #content .panel-searchpage .visitdk_search-results .search-snippet{white-space:normal;}
-.panel-threecol252550 .panel-col-main-content-col-2 .panel-pane[class*="section-box-279"].collapsiblock-processed .pane-title{white-space:normal;} 
+.panel-threecol252550 .panel-col-main-content-col-2 .panel-pane[class*="section-box-279"].collapsiblock-processed .pane-title{white-space:normal;}
 .shop .currency_select_menu{white-space:normal;}
 .panel-threecol252550 .section-box-572.pane-tellus-search .TellusProductList .TellusProduct .internal-node .node-body{white-space:normal;}
 .panel-twocol_25_75_stacked .panel-col-main-content-col-1 .panel-pane[class*="pane-facetapi"] h2 .title{white-space:normal;}
@@ -2170,7 +2171,7 @@ body{white-space:normal;}
 .brochures_cat .views-field-title{white-space:normal;}
 #danes-chef .pane-entity-field .pane-title{white-space:normal;}
 #danes-chef .quote{white-space:normal;}
-#danes-chef .field-collection-container{white-space:normal;} 
+#danes-chef .field-collection-container{white-space:normal;}
 #danes-chef .field-collection-view{white-space:normal;}
 #danes-chef .field-name-field-block-title {white-space:normal;}
 #edit-cart-contents .fieldset-legend{white-space:normal;}
@@ -2179,9 +2180,9 @@ body{white-space:normal;}
 .container #employee_single.panel-threecol_50_25_25 .panel-col-main-content-col-1 .field-name-field-job-title{white-space:normal;}
 #danes-chef .view-related-meet-danes .views-field-title a {white-space:normal;}
 .collapsibleList + a{white-space:normal;}
-.panel-threecol252550 .pane-custom.panel-pane[class*="section-box-279"] .pane-title{white-space:normal;} 
+.panel-threecol252550 .pane-custom.panel-pane[class*="section-box-279"] .pane-title{white-space:normal;}
 .panel-twocol_50_50 .panel-pane[class*="pane-facetapi"] .pane-title {white-space:normal;}
-.panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title{white-space:normal;} 
+.panel-threecol252550 .panel-pane[class*="section-box-279"] .pane-title{white-space:normal;}
 .panel-twocol_50_50 .panel-pane[class*="pane-facetapi"] li span{white-space:normal;}
 .panel-threecol252550 > .panel-panel-wrapper.panel-col-main-content-col-wrapper > .panel-panel.panel-col-last.no-second-row .article-search-dashboard h1{white-space:normal;}
 .panel-twocol_75_25_stacked .pane-tellus-search .TellusProduct .ProductNumber{white-space:normal;}
