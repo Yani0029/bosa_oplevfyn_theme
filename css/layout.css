@@ -10096,4 +10096,20 @@ text-decoration: underline;
             -o-linear-gradient(bottom, #dddddd, rgba(0, 0, 0, 0)) 1 100%;
   -moz-border-image:
           -moz-linear-gradient(bottom, #dddddd, rgba(0, 0, 0, 0)) 1 100%;
+
+}
+.img-voucher {
+  background: url(images/voucher.png);
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.download-voucher {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  line-height: 32px;
+  font-size: 17px;
 }
