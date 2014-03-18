@@ -9536,6 +9536,7 @@ clear: left;
 }
 .front .views-widget {
   float: left;
+  margin-bottom: 15px;
 }
 .front .views-exposed-form label{
   float: left;
