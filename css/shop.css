@@ -201,9 +201,11 @@ tr.odd {
 
 /* checkout information */
 #commerce-checkout-form-checkout fieldset#edit-bosa-attendees {
+}
+
+#commerce-checkout-form-checkout  fieldset fieldset{
   border: 1px solid lightgrey;
-  padding: 10px;
-  margin: 10px;
+  margin-bottom: 20px;
 }
 
 #commerce-checkout-form-checkout {
