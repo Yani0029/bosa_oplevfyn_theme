@@ -10086,7 +10086,8 @@ text-decoration: underline;
   float: left;
   font-weight: 100;
   font-size: 13px;
-  padding: 20px 10px;
+  padding: 20px 15px;
+  text-decoration: underline;
   border-left: 1px solid #dddddd;
   border-width: 0 0 0 1px;
   -webkit-border-image:
@@ -10097,8 +10098,12 @@ text-decoration: underline;
             -o-linear-gradient(bottom, #dddddd, rgba(0, 0, 0, 0)) 1 100%;
   -moz-border-image:
           -moz-linear-gradient(bottom, #dddddd, rgba(0, 0, 0, 0)) 1 100%;
-
 }
+
+.view-display-id-category_list_menu a:hover {
+  text-decoration: underline;
+}
+
 .img-voucher {
   background: url(images/voucher.png);
   width: 32px;
