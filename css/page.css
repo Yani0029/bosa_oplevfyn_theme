@@ -1946,6 +1946,13 @@ form#panels-edit-display-form .panel-col-background{
   margin: 0 1% 0 0;
 } 
 
+.iframe .as3grid .views-row-4,
+.iframe .as3grid .views-row-7,
+.iframe .as3grid .views-row-10,
+.iframe .as3grid .views-row-13,
+.iframe .as3grid .views-row-16 {
+  clear: none;
+}
 
 .as3grid .views-row { float: left; width: 31.6%; height: 254px;}
 .as3grid .views-row-4,
