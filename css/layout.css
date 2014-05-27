@@ -1383,6 +1383,26 @@ border: 1px solid #D5D4D0;
 }
 .ctools-auto-submit-full-form .views-submit-button .button-wrapper {
 }
+/**************
+  Offer Bosa add to cart form
+*****************/
+.pane-block.pane-bosa-add-to-cart-bosa-add-to-cart {width: 100%;}
+.bosa-product-reference {
+  clear: both;
+  width: 100%;
+  margin: 0px 0 20px 0px;
+}
+.bosa-product-reference .fieldset-wrapper {width: 100%}
+.bosa-product-reference div {
+}
+.bosa-product-reference .product-checkbox {min-height: 10px;float: left; width: 10%; clear:left;}
+.bosa-product-reference .dato {float: left;width: 40%}
+.bosa-product-reference .pladser {float: left;width: 15%}
+.bosa-product-reference .pris {float: left;width: 35%}
+.bosa_cart_amount {clear:both;}
+.bosa_cart_amount label {display:inline-block; width: 10%;}
+#edit-bosa-add-to-cart {background-color:#efeeea;}
+.bosa-product-reference_row {border: 2px solid #fff;}
 /************************
   Offer Carousel
 *************************/
@@ -7903,7 +7923,7 @@ form#panels-edit-display-form .panel-pane{
  start */
 
 /* offer page */
-
+.pane-bosa-add-to-cart-bosa-add-to-cart,
 #page .panel-pane.pane-views.pane-offer-product-reference {
   margin-left: 10px;
   font-family: 'Soho Gothic Regular', 'Cambria W02 Regular', 'Cambria W10 Regular', sans-serif;
@@ -8123,9 +8143,13 @@ color: #000;
     color: #5d5d5d;
 }
 
+.view-offer-product-reference .product-checkbox {
+  float: left;
+  width: 15px;
+  height: 20px;
+}
 .view-offer-product-reference .product-title,
-.view-offer-product-reference .date {
-  clear: left;
+.view-offer-product-reference .date {;
   float: left;
   width: 223px;
   padding: 3px 0 4px 8px;
@@ -9904,7 +9928,7 @@ border-radius: 3px;
 [class*="offer-dato-value"] .description {
     display: none;
 }
-.view-kategorivisning .views-field-field-front-page-title {
+#main-content .view-kategorivisning .views-field-field-front-page-title {
   background: none repeat scroll 0 0 #FFFFFF;
   border-top: 8px solid;
   font-size: 17px;
