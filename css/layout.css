@@ -9900,11 +9900,12 @@ border-radius: 3px;
 .search-description {
   line-height: 13px;
 }
-
+[class*="field-startdato-value"] .description,
+[class*="field-udl-bsdato-value"] .description,
 [class*="offer-dato-value"] .description {
     display: none;
 }
-.view-kategorivisning .views-field-field-front-page-title {
+#main-content .view-kategorivisning .views-field-field-front-page-title {
   background: none repeat scroll 0 0 #FFFFFF;
   border-top: 8px solid;
   font-size: 17px;
